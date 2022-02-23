@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Oswald_Bold_700;
+    src: url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap')
+  }
+@font-face {
+    font-family: Oswald_Light_200;
+    src: url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap')
+  }
+@font-face {
+    font-family: Rubik;
+    src: url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap')
+  }
+
+body {
+    max-width: 1000px;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+main {
+    display: block;
+}
+
+h1 {
+    max-width: 100%;
+    border-radius: 25%;
+    background-color: rgb(60, 19, 99);
+    color:blanchedalmond;
+    font-family: Oswald_Bold_700, sans-serif;
+    font-size: large;
+}
