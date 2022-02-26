@@ -1,0 +1,51 @@
+@media (min-width: 32.5em) { 
+
+    body {
+        margin: 8em;
+    }
+
+    h1 {
+        font-size: 3rem;
+        line-height: 7rem;
+        text-align: left;
+        padding-left: 10%;
+    }
+
+    header, footer {
+        height: 7rem;
+        border-radius: 1em;
+
+    }
+
+    img {
+        float:right;
+        box-shadow: 10px 10px 50px #ccc;
+        margin-top: 5%;
+        margin-right: 10%;
+    }
+
+    main{
+        height: 16rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+   
+    footer{
+        line-height: 3rem;
+        font-size: 0.85rem;
+    }
+
+    p, #footer_link:link{
+        display: inline-block;  
+    }
+    
+    #update_info {
+        font-size: 0.8rem;
+        vertical-align: text-top; 
+        margin-top: 1rem;
+        margin-left: -28%;
+    }
+}

@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Oswald;
+    src: url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&display=swap')
+  }
+
+@font-face {
+    font-family: Rubik;
+    src: url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap')
+  }
+
+body {
+    max-width: 85.375em;
+    max-height: 48em;
+}
+
+header, footer{
+    display: block;
+    position: static;
+    width: auto;
+    height: 20%;
+    background-color: rgb(60, 19, 99);
+    color:blanchedalmond;
+    font-family: Oswald, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+main {
+    display: block;
+    width: auto;
+    height: 60%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+h2 {
+    width: auto;
+    height: 10%;
+    font-family: Oswald, sans-serif;
+    font-weight: 200;
+    font-size: 0.95rem;
+    border-bottom: 2px solid;
+    border-color: gray;
+    border-radius: 10%;
+}
+ul {
+    width: auto;
+    height: 50%;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin-top: 10%;
+
+}
+
+li {
+    font-family: Rubik, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.assignment:link {
+    color: blue;
+}
+
+.assignment:visited {
+    color: blueviolet;
+}
+
+.assignment:hover {
+    color: rgb(6, 85, 46);
+}
+
+footer{
+    font-weight: 200;
+    font-size: 0.7rem;  
+}
+
+p {
+    color:blanchedalmond;   
+}
+
+#footer_link:link {
+
+    color:rgb(255, 219, 166);
+}
+
+#footer_link:visited {
+    color:orangered;
+}
+
+#footer_link:hover {
+    color: aqua;
+}
+
+#update_info {
+    color:gold;
+    font-size: 0.65rem;
+}
+
