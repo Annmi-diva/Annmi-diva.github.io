@@ -1,7 +1,7 @@
 @media (min-width: 32.5em) { 
 
     body {
-        margin: 8em;
+        margin: 8rem;
     }
 
     h1 {
@@ -13,7 +13,7 @@
 
     header, footer {
         height: 7rem;
-        border-radius: 1em;
+        border-radius: 1rem;
 
     }
 
@@ -36,16 +36,21 @@
     footer{
         line-height: 3rem;
         font-size: 0.85rem;
+        
     }
 
     p, #footer_link:link{
-        display: inline-block;  
+        display: inline-block; 
+    }
+
+    p {
+        margin-left: -10%;
     }
     
     #update_info {
         font-size: 0.8rem;
         vertical-align: text-top; 
         margin-top: 1rem;
-        margin-left: -28%;
+        margin-left: -20%;
     }
 }

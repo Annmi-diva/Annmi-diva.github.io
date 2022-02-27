@@ -1,16 +1,9 @@
-@font-face {
-    font-family: Oswald;
-    src: url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&display=swap')
-  }
-
-@font-face {
-    font-family: Rubik;
-    src: url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap')
-  }
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&family=Rubik:ital,wght@1,300&display=swap');
 
 body {
-    max-width: 85.375em;
-    max-height: 48em;
+    font-size: 16px;
+    max-width: 85.375rem;
+    max-height: 48rem;
 }
 
 header, footer{
@@ -20,7 +13,7 @@ header, footer{
     height: 20%;
     background-color: rgb(60, 19, 99);
     color:blanchedalmond;
-    font-family: Oswald, sans-serif;
+    font-family: "Oswald", sans-serif;
     text-align: center;
 }
 
@@ -40,7 +33,7 @@ main {
 h2 {
     width: auto;
     height: 10%;
-    font-family: Oswald, sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: 200;
     font-size: 0.95rem;
     border-bottom: 2px solid;
@@ -60,7 +53,7 @@ img {
 }
 
 li {
-    font-family: Rubik, sans-serif;
+    font-family: "Rubik", sans-serif;
     font-weight: 300;
     font-size: 1rem;
 }
@@ -82,12 +75,12 @@ footer{
     font-size: 0.7rem;  
 }
 
-p {
+footer p {
     color:blanchedalmond;   
 }
 
 #footer_link:link {
-
+    
     color:rgb(255, 219, 166);
 }
 
