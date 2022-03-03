@@ -1,27 +1,27 @@
 @media only screen and (min-width: 40em) {
     h1 {
-        font-size: 35px;
+        font-size: 2.1875rem;
     }
     h2 {
-        font-size: 25px;
+        font-size: 1.5625rem;
     }
     h3 {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     h4 {
-        font-size: 16px;
+        font-size: 1rem;
     }
     nav ul {
         flex-flow: row wrap;
     }
     nav ul li a {
-        font-size: 16px;
+        font-size: 1rem;
     }
     #Typography-Table {
-        font-size: 16px;
+        font-size: 1rem;
     }
     #Typography-Table tr td, #Typography-Table tr th {
-        padding: 12px;
+        padding: 0.75rem;
     }
     #Typography-Table tr td:nth-child(2), 
     #Typography-Table tr th:nth-child(2),
