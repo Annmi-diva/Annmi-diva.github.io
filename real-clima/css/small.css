@@ -8,6 +8,7 @@ header, footer, main, nav {
     border-radius: 1rem;
 }
 header, footer {
+    font-family: "Varela Round", sans-serif;
 	background-color: #686A6C;
 	color: #3EF4FA;
 	padding: 15px;
@@ -65,14 +66,24 @@ img {
 li {
 	list-style-type: none;
 }
-h1 {
+hr {
+    border-color: #FD921D;
+}
+main h1 {
 	font-size: 30px;
+    color: #F7FF00;
+    background-color: #686A6C;
 }
 h2 {
-	font-size: 20px;
+	font-size: 25px;
+    color: #FD921D;
 }
 h3 {
-	font-size: 16px;
+	font-size: 20px;
+    color: #FD921D;
+}
+.titles h3{
+    background-color: #686A6C;
 }
 h4 {
 	font-size: 16px;
