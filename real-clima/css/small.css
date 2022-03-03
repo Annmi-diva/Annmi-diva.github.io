@@ -13,7 +13,6 @@ header, footer {
     font-family: "Varela Round", sans-serif;
 	background-color: #686A6C;
 	color: #3EF4FA;
-	padding: 1rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -23,6 +22,7 @@ header, footer {
 
 header {
     font-size: 1.875rem;
+    padding: 1rem;
 }
 
 /* navigation - top */
@@ -193,6 +193,11 @@ a {
 #Typography-Table tr th:nth-child(5) {
 	display: none;
 }
+
+footer {
+    padding: -2rem;
+}
+
 footer a {
     color:#3EF4FA;
     text-decoration: none
