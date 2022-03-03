@@ -17,22 +17,22 @@
     nav ul li a {
         font-size: 16px;
     }
-    #typographyTable {
+    #Typography-Table {
         font-size: 16px;
     }
-    #typographyTable tr td, #typographyTable tr th {
+    #Typography-Table tr td, #Typography-Table tr th {
         padding: 12px;
     }
-    #typographyTable tr td:nth-child(2), 
-    #typographyTable tr th:nth-child(2),
-    #typographyTable tr td:nth-child(4), 
-    #typographyTable tr th:nth-child(4),
-    #typographyTable tr td:nth-child(5), 
-    #typographyTable tr th:nth-child(5) {
+    #Typography-Table tr td:nth-child(2), 
+    #Typography-Table tr th:nth-child(2),
+    #Typography-Table tr td:nth-child(4), 
+    #Typography-Table tr th:nth-child(4),
+    #Typography-Table tr td:nth-child(5), 
+    #Typography-Table tr th:nth-child(5) {
 	    display: revert;
     }
-    #colorTable tr td:nth-child(1), 
-    #colorTable tr td:nth-child(5) {
+    #TableColor tr td:nth-child(0), 
+    #TableColor tr td:nth-child(7) {
         display: revert;
     }
 
