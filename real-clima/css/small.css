@@ -2,10 +2,11 @@
 body {
 	font-family: "Nunito Sans",sans-serif;
     font-size: 16px;
+    background-color: #F6F7F9;
 }
 header, footer, main, nav {
 	max-width: 80rem;
-	margin: 0 auto;
+	margin: 0% 5% 0% 5%;
     border-radius: 1rem;
 }
 header, footer {
@@ -163,6 +164,7 @@ a {
 	height: 300px;
 }
 #TableColor tr td {
+    border:1px solid #000000;
 	text-align: center;
 	vertical-align: bottom;
 	width: 250px;
