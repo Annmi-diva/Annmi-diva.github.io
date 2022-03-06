@@ -4,15 +4,15 @@ html {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    background-color: #000000;
+    background-color: #F6F7F9;
 }
 
 
 body {
     font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
     max-width: 75rem;
     margin: 0 auto;
-    background-color: #F6F7F9;
     padding: 1rem;
 }
 
@@ -78,10 +78,11 @@ header div {
 
 nav {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 100%;
 }
 
 .navigation {
+
     font-family: "Nunito Sans", sans-serif;
     font-weight: 200;
     display: flex;
@@ -89,12 +90,12 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #FD921D;
-    padding: 0.25em;
-    line-height: 3em;
+    padding: 0.25rem;
+    line-height: 3rem;
     text-align: center;
-    font-size: 1.25em;
+    font-size: 20px;
     flex-direction: column;
-    margin: 0.25em;
+    margin: 0.25rem;
 }
 
 .navigation ul {
@@ -105,7 +106,7 @@ nav {
 .navigation a {
     flex: auto;
     text-align: center;
-    padding: 1em;
+    padding: 1rem;
     text-decoration: none;
 }
 
@@ -115,8 +116,7 @@ nav {
 }
 
 .navigation a:hover {
-    color:#686A6C;
-    background-color: #b0fcff;
+    color:#F7FF00;
 }
 
 .navigation li {
@@ -143,58 +143,57 @@ nav {
 
 .responsive a:hover {
     color:#686A6C;
-    background-color: #b0fcff;
+    background-color:#F7FF00;
 }
 
 .active {
-    background-color: #3EF4FA;
+    background-color:#3EF4FA;
 }
 
 main {
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 div {
+    font-family: "Nunito Sans", sans-serif;
     font-style: italic;
     text-align: left;
-    font-family: "Karla", serif;
-}
-.banner {
-    border: dashed 1px;
-    padding: 15px;
-    margin: 10px;
 }
 
-.forecast {
+.contentbox {
     border: dashed 1px;
-    padding: 15px;
-    margin: 10px;
-
-}
-
-.article {
-    border: dashed 1px;
-    padding: 15px;
-    margin: 10px;
-}
-
-.contact {
-    border: dashed 1px;
-    padding: 15px;
-    margin: 10px;
+    padding: 1rem;
+    margin: 0.6rem;
+    background-color: #9af9fc;
+    
 }
 
 footer {
     display: flex;
-    flex-grow: inherit;
-    max-width: 900px;
+    max-width: 100%;
+    max-height: 70%;
+    padding: 1rem;
     background-color:#686A6C;
     align-items: center;
     justify-content: center;
-    line-height: 1em;
     flex-direction: column;
 }
 
 footer p, a {
     color: #3EF4FA;
+}
+
+footer p {
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+
+#date {
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+
+#assignment-link {
+    color:#FD921D;
 }

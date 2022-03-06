@@ -26,9 +26,6 @@
         list-style-type: none;
     }
 
-    .navigation a:hover {
-        border-radius: 1rem;
-    }
 
     .active {
         border-radius: 1rem;
@@ -51,8 +48,16 @@
         font-size: 20px;
     }
 
-    footer {
-        max-width: 1200px;
-        flex-direction: row;
+    .contentbox {
+        background-color:#F6F7F9;
+        
     }
+
+    footer {
+        border-radius: 2rem;
+    }
+}
+
+#assignment-link:hover {
+    color: #F7FF00;
 }
