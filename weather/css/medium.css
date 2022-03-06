@@ -1,0 +1,45 @@
+@media only screen and (min-width: 40em) {
+        
+    nav {
+        margin: 0 auto;
+    }
+
+    .navigation {
+        justify-content: center;
+        border-radius: 1rem;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation ul {
+        list-style-type: none;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation a:hover {
+        border-radius: 1rem;
+    }
+
+    .active {
+        border-radius: 1rem;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-top: 0;
+    }
+    
+    header {
+        border-radius: 2rem;
+    }
+    
+    header div {
+        font-size: 20px;
+    }
+}
+

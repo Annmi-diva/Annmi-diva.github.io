@@ -1,0 +1,58 @@
+@media only screen and (min-width: 60em) {
+    .navigation {
+        padding: 0;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        display: flex;
+        order: 1;
+        position: relative;
+        width: auto;
+        flex-direction: row;
+        border-radius: 1rem;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        font-size: 25px;
+        flex:none;
+    }
+
+    .navigation ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .navigation a:hover {
+        border-radius: 1rem;
+    }
+
+    .active {
+        border-radius: 1rem;
+    }
+
+    .logo {
+        display: flex;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-top: 0;
+    }
+
+    header {
+        border-radius: 2rem;
+    }
+    
+    header div {
+        font-size: 20px;
+    }
+
+    footer {
+        max-width: 1200px;
+        flex-direction: row;
+    }
+}
