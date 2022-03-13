@@ -1,5 +1,21 @@
 @media only screen and (min-width: 60em) {
+
+    html {
+        max-width: 100rem;
+        padding: 0.5rem;
+    }
+
+    .logo {
+        max-width: 200px;
+        max-height: 100px;
+        margin-left: 1.5rem;
+    }
+    nav {
+        margin: 0 auto;
+        width: 100%;
+    }
     .navigation {
+        left: 0;
         padding: 0;
         align-items: flex-start;
         flex-wrap: nowrap;
@@ -17,9 +33,14 @@
 
     .navigation li {
         display: block;
-        font-size: 25px;
+        text-align: center;
         flex:none;
     }
+
+    .navigation a {
+        font-size: 1.1rem;
+    }
+
 
     .navigation ul {
         display: flex;
@@ -31,9 +52,22 @@
         border-radius: 1rem;
     }
 
+    .navigation a:hover {
+        color:#F7FF00;
+    }
+
+    .active a:hover {
+        color:#FD921D;
+    }
+
     .logo {
         display: flex;
     }
+
+    main {
+        margin: 5rem;
+    }
+
 
     h1 {
         font-size: 40px;
@@ -44,20 +78,101 @@
         border-radius: 2rem;
     }
     
-    header div {
-        font-size: 20px;
+    .title {
+        margin-top: 0;
     }
 
-    .contentbox {
-        background-color:#F6F7F9;
+    header div {
+        font-size: 20px;
+        margin-top: -2rem;
+    }
+
+    .banner {
+        margin-bottom: -13rem;
+    }
+
+ 
+
+    .w-summary {
+        position: relative;
+        top: -18rem;
+        right: -2rem;
+        width: 10rem;
+        height: 10rem;
+        background: radial-gradient(#F6F7F9, #3EF4FA);
+        border: 1px solid #000;
+        padding: 1.5rem;
+        box-shadow: 0 0 30px #686A6C;
+        opacity: 0.9;
+    }
+
+    .forecast {
+        display: flex;
+        flex-flow: row wrap;
+ 
+    }
+    
+    .forecast-col {
+        display: flexbox;
+        flex: 1 1 auto;
         
     }
+
+    .head, .data {
+        color:#F6F7F9;
+        display: block;
+        text-align: center;
+    }
+
+    .article {
+        padding-bottom: 2rem;
+    }
+
+    .article-link {
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+
+    #image-travel img {
+        position: static;
+        bottom: 0;
+        float: right;
+        width: 40rem;
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+
+    .travel-license {
+        top: 30rem;
+        left: 41rem;
+    }
+
+    .travel-license p, a {
+        font-size: 0.7rem;
+    }
+
+    .contact {
+        display: flex;
+        flex: 1 1 auto;
+    }
+
+    .contact-info {
+        display: flexbox;
+        margin-left: 2rem;
+    }
+
+    #map {
+        width: 25rem;
+        height: 12.5rem;
+    }
+
 
     footer {
         border-radius: 2rem;
     }
+
+    #assignment-link:hover {
+        color: #F7FF00;
+    }
 }
 
-#assignment-link:hover {
-    color: #F7FF00;
-}
