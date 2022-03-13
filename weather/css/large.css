@@ -1,8 +1,9 @@
 @media only screen and (min-width: 60em) {
 
     html {
-        max-width: 100rem;
+        max-width: 90rem;
         padding: 0.5rem;
+        margin: 0.5rem;
     }
 
     .logo {
@@ -91,7 +92,9 @@
         margin-bottom: -13rem;
     }
 
- 
+    #img-banner img {
+        width: 72.2rem;
+    }
 
     .w-summary {
         position: relative;
@@ -111,17 +114,16 @@
         flex-flow: row wrap;
  
     }
+
+    .forecastTitle {
+        text-align: left;
+        background:#F6F7F9;
+    }
     
     .forecast-col {
         display: flexbox;
         flex: 1 1 auto;
         
-    }
-
-    .head, .data {
-        color:#F6F7F9;
-        display: block;
-        text-align: center;
     }
 
     .article {
@@ -152,23 +154,29 @@
     }
 
     .contact {
+        width: 72.2rem;
         display: flex;
-        flex: 1 1 auto;
+        flex: 1 1;
+        flex-direction: row-reverse;
     }
 
     .contact-info {
         display: flexbox;
         margin-left: 2rem;
+        margin-right: 15rem;
     }
+
 
     #map {
         width: 25rem;
         height: 12.5rem;
+        margin-right: 10rem;
     }
 
 
     footer {
         border-radius: 2rem;
+        padding: 0.5rem 0rem 0.5rem 0rem;
     }
 
     #assignment-link:hover {

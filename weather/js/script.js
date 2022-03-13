@@ -91,6 +91,7 @@ const fullDate = message + ", " + date + " " + message2 + " " + year;
 
 document.getElementById("date").textContent = fullDate;
 
+// to have a responsive menu on smartphones //
 const menubutton = document.querySelector(".menu");
 const mainnav = document.querySelector(".navigation");
 
@@ -98,4 +99,40 @@ menubutton.addEventListener("click", () => {mainnav.classList.toggle("responsive
 
 window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
 
+
+// to display forcast on smartphones //
+const target = document.querySelector(".forecast");
+const btn = document.querySelector(".forecastTitle");
+btn.onclick = function cast() {
+  if (target.style.display !== "none") {
+    target.style.display = "none";
+  } else {
+    target.style.display = "block";
+  }
+};
+
+window.onresize = () => {if (window.innerWidth > 760) btn.remove(onclick())};
+
+// to get the banner for the pancakes announsment on fridays //
+if (message === "Friday") {
+
+    const foodbanner = document.createElement("p");
+    foodbanner.className = "avisoBanner"
+    const foodtext = document.createTextNode("Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.");
+    foodbanner.appendChild(foodtext);
+
+    const element = document.getElementById("theHead");
+    element.appendChild(foodbanner);
+}
+
+// to get the wind-chill //
+
+var t = parseInt(document.getElementById("Currently").textContent);
+var s = parseInt(document.getElementById("Wind-Speed").textContent);
+
+
+var f = (35.74 + (0.6215 * t))-(35.75 * Math.pow(s,0.16)) + (0.4275*t*Math.pow(s,0.16));
+var f = Math.round(f);
+
+document.getElementById("Wind-Chill").innerHTML = f;
 

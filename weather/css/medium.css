@@ -103,6 +103,11 @@
         margin-bottom: -13rem;
     }
 
+    #img-banner img {
+        width: 59.5rem;
+    }
+
+
     .forecast {
         display: flex;
         flex-flow: row wrap;
@@ -114,6 +119,10 @@
         flex: 1 1 auto;
     }
 
+    .forecastTitle {
+        text-align: left;
+        background:#F6F7F9;
+    }
 
     .article {
         padding-bottom: 2rem;
@@ -146,6 +155,7 @@
 
 
     .contact {
+        width: 59.5rem;
         display: flex;
         flex: 1 1 auto;
     }

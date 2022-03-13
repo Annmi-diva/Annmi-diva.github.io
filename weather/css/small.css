@@ -36,6 +36,20 @@ h1 {
 
 }
 
+.avisoBanner {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background: #F7FF00;
+    color: #000000;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: -1rem;
+}
+
 h2 {
     font-family: "Nunito Sans", sans-serif;
     font-weight: 700;
@@ -184,11 +198,22 @@ div {
 }
 
 .forecast {
-    display: block;
+    display: none;
+}
+
+.forecastTitle {
+    text-align: center;
+    background: #686A6C;
 }
 
 .forecast-col {
     background: #686A6C;
+}
+
+.head, .data {
+    color:#F6F7F9;
+    display: block;
+    text-align: center;
 }
 
 .weather-image {
@@ -223,7 +248,7 @@ div {
 
 #image-travel img {
     position: absolute;
-    bottom: -78rem;
+    bottom: -97%;
     width: 20rem;
     height: auto;
     margin-top: 3rem;
@@ -231,7 +256,7 @@ div {
 
 .travel-license {
     position: relative;
-    top: 75rem;
+    top: 76rem;
 }
 
 .travel-license p, a{
@@ -249,18 +274,37 @@ div {
 }
 
 .contact-info {
-    margin: 1rem;
+    margin: 0rem 4.5rem 0rem 4.5rem;
+    padding-top: 2rem;
 
 }
 
 .contact-info h2 {
     color: #686A6C;
+    text-align: left;
+    margin-bottom: -0.2rem;
+}
+
+.contact-info p, a {
+    color: #F6F7F9;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.social-media {
+    margin-left: 0.5rem;
+}
+
+.icon {
+    width: 25px; 
+    height: 25px;
+    text-decoration: none;
 }
 
 #map {
     width: 12.5rem;
     height: 6.26rem;
-    margin: 2rem;
+    margin: 2rem 5rem 2rem 5rem;
 }
 
 footer {
