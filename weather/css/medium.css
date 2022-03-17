@@ -181,8 +181,6 @@
 
     /*Gallery Page*/
 
-
-
     .img-g {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -193,7 +191,6 @@
     .gallery {
         width: 350px;
         height: 300px;
-        display: block;
     }
     
 }
