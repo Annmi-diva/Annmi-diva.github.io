@@ -178,6 +178,23 @@
     #assignment-link:hover {
         color: #F7FF00;
     }
+
+    /*Gallery Page*/
+
+
+
+    .img-g {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1em;
+        padding: 5px;
+    }
+
+    .gallery {
+        width: 350px;
+        height: 300px;
+        display: block;
+    }
     
 }
 

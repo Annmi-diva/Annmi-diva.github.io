@@ -182,5 +182,36 @@
     #assignment-link:hover {
         color: #F7FF00;
     }
+
+    /*Gallery Page*/
+
+    #G-title {
+        font-size: 1.875rem;
+        margin-left: -3rem;
+        text-align: left;
+
+    }
+
+    .img-g {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+        padding: 5px;
+        margin-bottom: 15px;
+        margin-left: -5rem;
+    }
+
+    .gallery {
+        width: 350px;
+        height: 300px;
+        display: block;
+        box-shadow: 0 6px 10px 0 rgba(34, 34, 34, 0.2), 0 6px 20px 0 rgba(36, 36, 36, 0.19);
+    }
+
+    .gallery:hover {
+        box-shadow: 0 0 40px #242424;        
+    }
+
 }
 
