@@ -170,7 +170,8 @@
     #map {
         width: 25rem;
         height: 12.5rem;
-        margin-right: 10rem;
+        margin: 2rem 10rem 2rem 1rem;
+
     }
 
 
@@ -179,7 +180,7 @@
         padding: 0.5rem 0rem 0.5rem 0rem;
     }
 
-    #assignment-link:hover {
+    #assignment-link:hover #wireframes-link:hover {
         color: #F7FF00;
     }
 
@@ -221,6 +222,57 @@
 
     form label.top input, form label.top select {
         padding: .75rem;
+    }
+
+    /* Home Page*/
+
+    #First {
+        display: flex;  
+        flex: 1 1 1;
+        width: 80%;
+        margin-left: 1rem;
+        margin-top: -2rem;
+        margin-bottom: 2rem;
+    }
+
+    #First hr {
+        display: none;
+    }
+
+    .zone1, .zone2, .zone3 {
+        flex-direction: column;
+        border-radius: 2rem;
+        background-color: #3EF4FA;
+        margin: 1rem;
+        padding: 0.5rem;
+    }
+
+    .zone1 h1, .zone2 h1, .zone3 h1 {
+        text-align: center;
+        color:#686A6C;
+        font-size: 30px;
+        margin: 1rem 0.5rem 0.5rem 0.5rem;
+    }
+
+    .zone1 h2, .zone2 h2, .zone3 h2 {
+        text-align: center;
+        font-size: 25px;
+        margin: 0rem 0.5rem 1rem 0.5rem;
+    }
+
+    .zone2 h2{
+        margin-bottom: 3rem;
+    }
+
+    .zone1 h3, .zone2 h3, .zone3 h3 {
+        text-align: center;
+        font-size: 20px;
+        margin: 0rem 0.5rem 1rem 0.5rem;
+    }
+
+    .zone1 img, .zone2 img, .zone3 img {
+        border-radius: 2rem;
+        margin: 1rem;
     }
 
 }
