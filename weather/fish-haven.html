@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en-us">
+
+    <head>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, height=device-width, initial-scale=1.0">
+      <title>Real Clima Website Planing- Home Page</title>
+      <meta name="author" content="Anna Berrett">
+      <meta name="description" content=" Home page for the webisite planing of the real clima website.">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,600;0,700;1,200;1,300;1,600&family=Varela+Round&display=swap" rel="stylesheet">
+      <link  rel="stylesheet" href="css/normalize.css">
+      <link  rel="stylesheet" href="css/small.css">
+      <link  rel="stylesheet" href="css/medium.css">
+      <link  rel="stylesheet" href="css/large.css">   
+
+    </head>
+
+    <body>
+
+        <div id="theHead"></div>
+
+        <header>
+
+            <img class="logo" src="img/real-clima-logo-larg.svg" alt="Real Clima Logo">
+            <section class="title">
+                <h1 class=" brand-name"> Real Clima</h1>
+                <div>"Let's talk weather!"</div>
+            </section>   
+
+        </header>
+
+        <nav>
+
+            <ul class="navigation">
+                <li><a class= "menu" href="#"> </a></li>
+                <li><a href="https://annmi-diva.github.io/weather/index.html">HOME</a></li>
+                <li><a href="https://annmi-diva.github.io/weather/preston.html">PRESTON</a></li>
+                <li><a href="https://annmi-diva.github.io/weather/soda-springs.html">SODA SPRINGS</a></li>
+                <li class="active"><a href="https://annmi-diva.github.io/weather/fish-haven.html">FISH HAVEN</a></li>
+                <li><a href="https://annmi-diva.github.io/weather/stormcenter.html">STORM CENTER</a></li>
+                <li><a href="https://annmi-diva.github.io/weather/gallery-7.html">GALLERY</a></li>
+            </ul>
+
+        </nav>
+
+        <main>
+
+            <h1 id="page-title">Fish Haven Idaho</h1>
+
+            <div class= "contentbox banner">
+
+                <picture id= "img-banner">
+
+                    <source media="(max-width: 640px)"  srcset="img/fish-haven_banner-m.jpg">
+                    <source media="(min-width: 641px)"  srcset="img/fish-haven_banner.jpg">
+                    <img src="img/fish-haven_banner.jpg" alt="mountains and trees landscape">
+
+                </picture>
+
+                <section class="w-summary">
+
+                    <h2>Weather Summary</h2>
+                    <p><b>Currently: </b> <span id="Currently"></span>°F</p>
+                    <p><b>Condition: </b> <span id="Condition"></span></p>
+                    <p><b>High: </b> <span id="High"></span>°F</p>
+                    <p><b>Wind Chill: </b><span id="Wind-Chill"></span>°F</p>
+                    <p><b>Humidity: </b><span id="Humidity"></span>°F</p>
+                    <p><b>Wind Speed: </b><span id="Wind-Speed"></span>mph</p>
+
+                </section>
+
+            </div>
+
+            <h2 class="forecastTitle">Five Day Forecast</h2>
+
+            <p id="weather-rights">Weather Data provided by OpenWeatherMap</p>
+            
+            <div class="contentbox forecast">
+                
+            </div>
+
+            <div class= "contentbox article">
+
+                <div id="article-content">
+
+                    <picture id= "image-travel">
+                    
+                        <source media="(max-width: 639px)"  srcset="img/fish-haven-s.jpg">
+                        <source media="(min-width: 640px)"  srcset="img/fish-haven-m.jpg">
+                        <source media="(min-width: 960px)"  srcset="img/fish-haven.jpg">
+                        <img src="img/fish-haven.jpg" alt="Areal view of Bear Lake" />
+    
+                    </picture>
+
+                    <div class="travel-license">
+
+                        <p> Aereal view of Bear Lake taken from <a  href="https://commons.wikimedia.org/wiki/File:Aerial_view_of_Bear_Lake,_Idaho-Utah.jpg">Wikipedia Commons</a></p>
+
+                    </div>
+
+                    <h2>8 Reasons Why the Shoulder Season is the Best Time to Visit Bear Lake</h2>
+
+                    <p>Stradling the Utah and Idaho state line, Bear Lake is often called the “Caribbean of the Rockies” for its naturally brilliant blue waters. 
+                        Popular with boaters and outdoor enthusiasts for its recreational opportunities, the lake attracts big crowds in summer months, 
+                        packing the town and lake. If you're looking to skip lines and busy beaches, come during the spring shoulder season, 
+                        a blissfully quiet time to visit this natural wonder. Here's what makes it so special:</p>
+
+                    <h3>1. Empty Beaches</h3>
+
+                    <p >Tough to find a place to put your beach chair on a summer day? Not so in shoulder season. 
+                        The best sandy spots to lay out your towel are Rendezvous Beach, located on the lake's south end, 
+                        and North Beach on its opposite side. Rendezvous offers day-use areas, water access, and camping.<br><br>
+
+                        If it's too cold for swimming in spring, this is a great place to put in your paddleboard or kayak and explore. 
+                        Swimmers love the two-mile long North Beach because of its large, deep swimming area, but you can also launch boats, 
+                        kayaks, and paddleboards here.
+                    </p>
+
+                    <h3>2. Less Boat Traffic</h3>
+
+                    <p >If you like smooth, flat water for paddling, waterskiing, or boating, spring shoulder season is for you. 
+                        At 20 miles long and eight miles wide, Bear Lake has plenty of space for boaters, water skiers, sailors, 
+                        and jet skiers to spread out and explore. In many areas, you'll feel like you have the whole place to yourself. 
+                        If you're the type to prefer motor-free boating, unfurl your sail in the afternoon when a gentle breeze rolls across 
+                        the lake—and stick around for the spectacular sunsets.
+                    </p>
+
+                    <h3>3. Excellent Fishing</h3>
+
+                    <p> Bear Lake's beautiful turquoise waters are not its only claim to fame, 
+                        as fishing draws anglers from all over the West. 
+                        The fish grow big here—the Idaho state record for cutthroat trout was set here (19 pounds) 
+                        and lake trout have been known to grow up to 30 pounds. 
+                        The lake boasts also four endemic fish species—the most of any North American lake. 
+                        (Check with the game department on catch-and-release rules, and read the fishing report to see what's biting.)
+                        Bear Lake's best-known species is the Bonneville Cisco, but the Bear Lake Whitefish, Bonneville Whitefish, 
+                        and Bear Lake Sculpin also continue to thrive here. The cutthroat trout and lake trout are also common.
+                    </p>
+
+                    <h3>4. Better Value</h3>
+
+                    <p >Whether you're excited about glamping in a wagon at Conestoga Ranch or renting out a whole vacation home, 
+                        accommodations are more affordable and easier to come by in spring. 
+                        You can choose from luxury homes, condos, cabins, resorts, and campgrounds. 
+                        There's something for every budget. 
+                        Those planning a family reunion will find it easier to find large homes to accommodate big groups in the spring.
+                    </p>
+
+                    <h3>5. Perfect Biking Conditions</h3>
+
+                    <p >Summers can feel hot when road cycling on black asphalt. 
+                        Bring your bike in the spring to ride the primarily flat, 
+                        50-mile road bike loop around Bear Lake with splendid views, comfortable temperatures, 
+                        and none of the summer season road traffic.
+                    </p>
+
+                    <h3>6. Diverse Outdoor Adventures</h3>
+
+                    <p >OK, you might not want to cannonball off a dock in springtime, 
+                        but there are still lots of early-season adventures to enjoy at the lake. 
+                        From watersports to horseback riding and four-wheeling, the options are nearly endless. 
+                        Not all rental shops are open by spring, but you can easily hike or mountain bike 
+                        on the trails or enjoy watersports if you own your own craft.<br><br>
+
+                        One of the best quick spring hikes is the nearby Limber Pine Trail. 
+                        This family-friendly option is just 1.5 miles roundtrip and takes you to a 560-year-old tree. 
+                        The trail has informative, educational signs and spectacular views along the way.
+                    </p>
+
+                    <h3>7. Chance of Animal Sightings</h3>
+
+                    <p >Birders flock to Bear Lake to spot the various species that call the area home. 
+                        One of the best places to see them is the Bear Lake National Wildlife Refuge in Idaho. 
+                        It's home to one of the largest Canada goose habitat areas in the western U.S. 
+                        Bring your binoculars to look for swans, snowy egrets, ducks, and pelicans flying around the refuge. 
+                        (You can even get a brochure on the local birds mailed to you from the visitors center to help with identifying the species.)<br><br>
+
+                        Beyond the birds, larger wildlife is easier to spot in the Bear Lake Valley without summer crowds around 
+                        to spook them. You may see moose, elk, wild turkeys, and deer, just to name a few.
+                    </p>
+
+                    <h3>8. The Winter Activities</h3>
+
+                    <p >If you visit in early spring, head to the old-school slopes of family-run Beaver Mountain Ski Resort, 
+                        just 12 miles from Bear Lake in Logan Canyon. Less developed than larger resorts along the Wasatch, 
+                        Beaver Mountain offers 828 acres of family-friendly terrain. However, 
+                        the ski area doesn't use snowmaking equipment and is reliant on Mother Nature, 
+                        so it does close earlier in spring than other Utah resorts.<br><br>
+
+                        You can also still snowmobile in the high country! 
+                        Low elevation snow melts quickly in spring, but you'll find many other slopes with stable snow 
+                        into March and April. Rentals are available, or you can bring your own machine.
+                    </p>
+
+                    <p class="article-link">
+                        Written by Jenny Willden. Taken from:
+                        <a class="article-link" href="https://bearlake.org/8-reasons-why-the-shoulder-season-is-the-best-time-to-visit-bear-lake/">/bearlake.org</a>
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class= "contentbox contact">
+
+
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <p>📍 70 W Oneida St, Preston, ID 83263</p>
+                    <p>📧 <a href="#"> customerinfo@realclima.com</a></p>
+                    <p>☎️ (208)852-1818</p>
+
+                    <div class="social-media">
+
+                        <a class="icon" href="https://www.facebook.com" target="_blank">
+                            <img
+                            class="icon" id="face"
+                            src="img/Facebook-icon.svg"
+                            alt="Facebook icon"/>
+                        </a>
+
+                        <a class="icon" href="https://www.instagram.com" target="_blank">
+                            <img
+                            class="icon" id="insta"
+                            src="img/Insta-icon.svg" 
+                            alt="Instagram icon"/>
+                        </a>
+
+                        <a class="icon" href="https://www.twitter.com/" target="_blank">
+                            <img
+                            class="icon" id="twit"
+                            src="img/Twitter_icon.svg"
+                            alt="Twitter icon"/>
+                        </a>
+
+                    </div>
+
+                </div>
+                                    
+                <div>
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14082.310826911353!2d-111.89394747560047!3d42.098021410134116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7eb6e6de7d1%3A0x1c5be534f2217780!2sPreston%20City%20Clerk!5e0!3m2!1sen!2sus!4v1647144431175!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                
+
+            </div>
+
+        </main>
+         
+        <footer>
+
+            <p>&#169;2022 | Anna M. Berrett | Orem, UT</p>
+            <a id="assignment-link" href="https://annmi-diva.github.io/">Assignment Portal</a>
+            <p id="date"></p> 
+
+        </footer>
+    
+        <script src="js/script.js"></script>
+        <script src="js/weatherAPI-Fish.js"></script>
+
+
+    </body>
+    
+</html>  

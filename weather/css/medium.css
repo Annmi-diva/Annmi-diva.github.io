@@ -84,19 +84,33 @@
         font-size: 20px;
         margin-top: -2rem;
     }
-
+    
+    #page-title {
+        padding: 2rem;
+    }
 
     .w-summary {
         position: relative;
-        top: -10rem;
-        right: 6rem;
+        top: -14rem;
+        right: -2rem;
         width: 10rem;
-        height: 10rem;
+        height: 11rem;
+        width: 11.5rem;
         background: radial-gradient(#F6F7F9, #3EF4FA);
         border: 1px solid #000;
-        padding: 1.5rem;
+        padding: .5rem;
         box-shadow: 0 0 30px #686A6C;
         opacity: 0.9;
+        
+    }
+
+    .w-summary h2 {
+        font-size: 18px;
+    }
+
+    .w-summary p {
+        font-size: 14px;
+        text-align: left;
     }
 
     .banner {
@@ -122,9 +136,18 @@
     .forecastTitle {
         text-align: left;
         background:#F6F7F9;
+        margin-top: 2rem;
+        margin-bottom: 0rem;
+    }
+
+    #weather-rights {
+        margin: 0.5rem;
+        padding: 0rem;
+
     }
 
     .article {
+        
         padding-bottom: 2rem;
     }
 
@@ -145,12 +168,13 @@
         bottom: 0;
         float: right;
         width: 40rem;
-        margin-top: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
         margin-left: 1rem;
     }
 
     .travel-license {
-        top: 30rem;
+        top: 28rem;
         left: 41rem;
     }
 
