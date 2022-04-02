@@ -63,10 +63,12 @@
                 <section class="w-summary">
 
                     <h2>Weather Summary</h2>
-                    <p><b>Currently: </b> <span id="Currently">22</span>°F</p>
+                    <p><b>Currently: </b> <span id="Currently"></span>°F</p>
+                    <p><b>Condition: </b> <span id="Condition"></span></p>
+                    <p><b>High: </b> <span id="High"></span>°F</p>
                     <p><b>Wind Chill: </b><span id="Wind-Chill"></span>°F</p>
-                    <p><b>Humidity: </b><span id="Humidity">82</span>°F</p>
-                    <p><b>Wind Speed: </b><span id="Wind-Speed">5</span>mph</p>
+                    <p><b>Humidity: </b><span id="Humidity"></span>°F</p>
+                    <p><b>Wind Speed: </b><span id="Wind-Speed"></span>mph</p>
 
                 </section>
 
@@ -74,33 +76,10 @@
 
             <h2 class="forecastTitle">Five Day Forecast</h2>
 
+            <p id="weather-rights">Weather Data provided by OpenWeatherMap</p>
+            
             <div class="contentbox forecast">
-
-                <div class="forecast-col">
-                    <span class="head">Saturday</span>
-                    <img class="weather-image" src="img/sunny.svg" alt="Sun">
-                    <span class="data">H: 34°F  L: 19°F</span>
-                </div>
-                <div class="forecast-col">
-                    <span class="head">Sunday</span>
-                    <img class="weather-image" src="img/snow.svg" alt="Simple Snowflake">
-                    <span class="data">H: 36°F  L: 23°F</span>
-                </div>
-                <div class="forecast-col">
-                    <span class="head">Monday</span>
-                    <img class="weather-image" src="img/cloudy.svg" alt="Cloud">
-                    <span class="data">H: 36°F  L: 23°F</span>
-                </div>
-                <div class="forecast-col">
-                    <span class="head">Tusday</span>
-                    <img class="weather-image" src="img/snow.svg" alt="Simple Snowflake">
-                    <span class="data">H: 39°F  L: 25°F</span>
-                </div>
-                <div class="forecast-col">
-                    <span class="head">Wednesday</span>
-                    <img class="weather-image" src="img/snow.svg" alt="Simple Snowflake">
-                    <span class="data">H: 36°F  L: 28°F</span>
-                </div>
+                
             </div>
 
             <div class= "contentbox article">
@@ -219,6 +198,8 @@
         </footer>
     
         <script src="js/script.js"></script>
+        <script src="js/weatherAPI.js"></script>
+
 
     </body>
     
