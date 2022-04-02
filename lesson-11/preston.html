@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en-us">
+
+    <head>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, height=device-width, initial-scale=1.0">
+      <title>Real Clima Website Planing- Home Page</title>
+      <meta name="author" content="Anna Berrett">
+      <meta name="description" content=" Home page for the webisite planing of the real clima website.">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,600;0,700;1,200;1,300;1,600&family=Varela+Round&display=swap" rel="stylesheet">
+      <link  rel="stylesheet" href="css/normalize.css">
+      <link  rel="stylesheet" href="css/small.css">
+      <link  rel="stylesheet" href="css/medium.css">
+      <link  rel="stylesheet" href="css/large.css">   
+
+    </head>
+
+    <body>
+
+        <div id="theHead"></div>
+
+        <header>
+
+            <img class="logo" src="img/real-clima-logo-larg.svg" alt="Real Clima Logo">
+            <section class="title">
+                <h1 class=" brand-name"> Real Clima</h1>
+                <div>"Let's talk weather!"</div>
+            </section>   
+
+        </header>
+
+        <nav>
+
+            <ul class="navigation">
+                <li><a class= "menu" href="#"> </a></li>
+                <li><a href="https://annmi-diva.github.io/lesson-11/index.html">HOME</a></li>
+                <li class="active"><a href="https://annmi-diva.github.io/lesson-11/preston.html">PRESTON</a></li>
+                <li><a href="https://annmi-diva.github.io/lesson-11/soda-springs.html">SODA SPRINGS</a></li>
+                <li><a href="https://annmi-diva.github.io/lesson-11/fish-haven.html">FISH HAVEN</a></li>
+                <li><a href="https://annmi-diva.github.io/lesson-11/stormcenter.html">STORM CENTER</a></li>
+                <li><a href="https://annmi-diva.github.io/lesson-11/gallery-7.html">GALLERY</a></li>
+            </ul>
+
+        </nav>
+
+        <main>
+
+            <h1 id="page-title">Preston Idaho</h1>
+
+            <div class= "contentbox banner">
+
+                <picture id= "img-banner">
+
+                    <source media="(max-width: 640px)"  srcset="img/wdd230_franklinMedium.jpg">
+                    <source media="(min-width: 641px)"  srcset="img/wdd230_franklinLarge.jpg">
+                    <img src="img/wdd230_franklinLarge.jpg" alt="mountains and trees landscape">
+
+                </picture>
+
+                <section class="w-summary">
+
+                    <h2>Weather Summary</h2>
+                    <p><b>Currently: </b> <span id="Currently"></span>°F</p>
+                    <p><b>Condition: </b> <span id="Condition"></span></p>
+                    <p><b>High: </b> <span id="High"></span>°F</p>
+                    <p><b>Wind Chill: </b><span id="Wind-Chill"></span>°F</p>
+                    <p><b>Humidity: </b><span id="Humidity"></span>°F</p>
+                    <p><b>Wind Speed: </b><span id="Wind-Speed"></span>mph</p>
+
+                </section>
+
+            </div>
+
+            <h2 class="forecastTitle">Five Day Forecast</h2>
+
+            <p id="weather-rights">Weather Data provided by OpenWeatherMap</p>
+            
+            <div class="contentbox forecast">
+                
+            </div>
+
+            <div class= "contentbox article">
+
+                <div id="article-content">
+
+                    <picture id= "image-travel">
+                    
+                        <source media="(max-width: 639px)"  srcset="img/travel-s.jpg">
+                        <source media="(min-width: 640px)"  srcset="img/travel-m.jpg">
+                        <source media="(min-width: 960px)"  srcset="img/travel.jpg">
+                        <img src="img/travel.jpg" alt="Travel sign" />
+    
+                    </picture>
+
+                    <div class="travel-license">
+
+                        <p> Travel by <a  href="http://www.nyphotographic.com/">Nick Youngson</a> <a  rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://alphastockimages.com/">Alpha Stock Images</a> </p>
+
+                    </div>
+
+                    <h2>Overall Preston Travel Experience by Season</h2>
+
+                    <h3>Spring (March through May)</h3>
+
+                    <p >Humidity and temperatures combine to make this season feel moderately cold. 
+                        Highs range from 76.2°F (24.6°C) and 39.6°F (4.2°C) with warmer temperatures in the later months. 
+                        Rain is somewhat common with 5 to 6 days of significant precipitation per month. 
+                        Spring is the second busiest for tourism, which makes it a good time for those looking for things to do.
+                    </p>
+
+                    <h3>Summer (June through August)</h3>
+
+                    <p >The middle-year months have very comfortable weather with high temperatures that are quite warm. 
+                        These months see the least precipitation with 2 to 3 days of precipitation per month. 
+                        June - August is the busiest season for tourism in Preston, 
+                        so lodging and other accommodations may cost more than usual.
+                    </p>
+
+                    <h3>Fall (September through November)</h3>
+
+                    <p >Fall daily highs range from 83.7°F (28.7°C) and 42.3°F (5.7°C), 
+                        which will feel chilly given the humidity and wind. It rains or snows a normal amount:
+                        3 to 4 days per month. Tourism is fairly slow during these months due to the weather, 
+                        so hotels may be lower priced.
+                    </p>
+
+                    <h3>Winter (December through February)</h3>
+
+                    <p >Weather is far too cold this time of year in Preston to be enjoyable for warm weather travelers. 
+                        The average high during this season is between 41°F (5°C) and 28.5°F (-1.9°C). 
+                        On average, it rains or snows a smalll amount: 3 to 4 times per month. 
+                        These times of year are the slowest with tourists.
+                    </p>
+
+                    <p class="article-link">
+                        Taken from:
+                        <a class="article-link" href="https://championtraveler.com/dates/best-time-to-visit-preston-id-us/">championtraveler.com</a>
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class= "contentbox contact">
+
+
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <p>📍 70 W Oneida St, Preston, ID 83263</p>
+                    <p>📧 <a href="#"> customerinfo@realclima.com</a></p>
+                    <p>☎️ (208)852-1818</p>
+
+                    <div class="social-media">
+
+                        <a class="icon" href="https://www.facebook.com" target="_blank">
+                            <img
+                            class="icon" id="face"
+                            src="img/Facebook-icon.svg"
+                            alt="Facebook icon"/>
+                        </a>
+
+                        <a class="icon" href="https://www.instagram.com" target="_blank">
+                            <img
+                            class="icon" id="insta"
+                            src="img/Insta-icon.svg" 
+                            alt="Instagram icon"/>
+                        </a>
+
+                        <a class="icon" href="https://www.twitter.com/" target="_blank">
+                            <img
+                            class="icon" id="twit"
+                            src="img/Twitter_icon.svg"
+                            alt="Twitter icon"/>
+                        </a>
+
+                    </div>
+
+                </div>
+                                    
+                <div>
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14082.310826911353!2d-111.89394747560047!3d42.098021410134116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f7eb6e6de7d1%3A0x1c5be534f2217780!2sPreston%20City%20Clerk!5e0!3m2!1sen!2sus!4v1647144431175!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                
+
+            </div>
+
+        </main>
+         
+        <footer>
+
+            <p>&#169;2022 | Anna M. Berrett | Orem, UT</p>
+            <a id="assignment-link" href="https://annmi-diva.github.io/">Assignment Portal</a>
+            <p id="date"></p> 
+
+        </footer>
+    
+        <script src="js/script.js"></script>
+        <script src="js/weatherAPI.js"></script>
+
+
+    </body>
+    
+</html>  
