@@ -298,4 +298,12 @@
         margin: 1rem;
     }
 
+    /* upcoming events*/
+
+    .events {
+        position: relative;
+        left: 17rem;
+        width: 50%;
+    }
+
 }

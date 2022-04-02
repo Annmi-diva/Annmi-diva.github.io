@@ -541,3 +541,27 @@ form label.top input:required:valid {
     margin: 1rem;
 }
 
+/* upcoming events*/
+
+.events {
+    background-color: rgba(62, 244, 250, 0.4);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.events h2 {
+    text-align: center;
+}
+
+.events hr {
+    width: 25rem;
+    margin-top: -1rem;
+    height: 1px;
+    background: #686A6C;
+    border: #686A6C;
+    border-radius: 10rem;
+}
+
+.events h3 {
+   font-size: 18px;
+}

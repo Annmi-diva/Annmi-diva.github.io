@@ -278,6 +278,18 @@
     .zone2 {
         flex-direction: row-reverse;
     }
+
+    /* upcoming events*/
+
+    .events {
+        position: relative;
+        left: 10rem;
+        width: 50%;
+    }
+
+    .events hr {
+        width: 20rem;
+    }
     
 }
 
