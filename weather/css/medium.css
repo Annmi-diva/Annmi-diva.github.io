@@ -128,6 +128,11 @@
         padding-bottom: 2rem;
     }
 
+    #article-content h3, p {
+        text-align: justify;
+    
+    }
+
     .article-link {
         font-size: 0.8rem;
         margin-top: 1rem;
@@ -149,7 +154,7 @@
         left: 41rem;
     }
 
-    .travel-license p, a {
+    .travel-license p, .travel-license a {
         font-size: 0.7rem;
     }
 

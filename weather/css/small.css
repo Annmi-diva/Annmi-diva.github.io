@@ -192,9 +192,17 @@ div {
     background: radial-gradient(#F6F7F9, #3EF4FA);
 }
 
-.w-summary h2, p, span {
+.w-summary h2, .w-summary p, .w-summary span {
     margin: 0;
-    padding: 0.2rem
+    padding: 0.2rem;
+}
+
+.w-summary h2 {
+    font-size: 20px;
+}
+
+#Condition span {
+    margin-left: -0.5rem;
 }
 
 .forecast {
@@ -224,11 +232,16 @@ div {
     height:50px;
 }
 
+#weather-rights {
+    display: block;
+}
+
+
 .article {
     border: 1px solid #686A6C;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    padding: 0rem 2rem 17rem 2rem;
+    padding: 0rem 2rem 1rem 2rem;
 }
 
 .article-link {
@@ -241,25 +254,18 @@ div {
     color:#FD921D;
 }
 
-#article-content h3, p {
-    text-align: justify;
-
-}
-
 #image-travel img {
-    position: absolute;
-    bottom: -97%;
     width: 20rem;
     height: auto;
     margin-top: 3rem;
 }
 
-.travel-license {
-    position: relative;
-    top: 76rem;
+#article-content {
+    width: 100%;
+    margin: 1rem;;
 }
 
-.travel-license p, a{
+.travel-license p, .travel-license a {
     text-align: right;
     font-size: 0.5rem;
 }
