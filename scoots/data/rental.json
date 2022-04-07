@@ -1,0 +1,88 @@
+{
+    "rentals": [
+      {
+        "rentalType": "Honda Metro Scooter",
+        "photo": "sodasprings.jpg",
+        "capacity": 1,
+        "Engine": "Lightweight 49cc four-stroke OHC liquid-cooled single-cylinder 2-valve engine",
+        "MPG": 117, 
+        "Transmission": "V - matic",
+        "Horsepower": "4.4 HP @ 8,000 RPM",
+        "Drivetrain": "N/A",
+        "reservHalf": "$20",
+        "reservFull": "$30",
+        "walkInhalf": "$25",
+        "walkInfull": "$35"
+      },
+      {
+        "rentalType": "Honda Dio Scooter",
+        "photo": "sodasprings.jpg",
+        "capacity": 2,
+        "Engine": "Fan Cooled, 4 Stroke, SI Engine",
+        "MPG": 98.7,
+        "Transmission": "V - matic",
+        "Horsepower": "8 hp @7000 rpm",
+        "Drivetrain": "N/A",
+        "reservHalf": "$30",
+        "reservFull": "$40",
+        "walkInhalf": "$35",
+        "walkInfull": "$45"
+      },
+      {
+        "rentalType": "Honda PCX150 Scooter",
+        "photo": "sodasprings.jpg",
+        "capacity": 2,
+        "Engine": "Liquid-cooled SOHC single-cylinder",
+        "MPG": 106,
+        "Transmission": "Automatic",
+        "Horsepower": "15.8 HP",
+        "Drivetrain": "N/A",
+        "reservHalf": "$40",
+        "reservFull": "$50",
+        "walkInhalf": "$45",
+        "walkInfull": "$55"
+      },
+      {
+        "rentalType": "Honda Pioneer ATV",
+        "photo": "sodasprings.jpg",
+        "capacity": 4,
+        "Engine": "999cc liquid-cooled Unicam® longitudinally mounted parallel-twin four-stroke",
+        "MPG": 18, 
+        "Transmission": "Automatic DCT w/ six speeds + reverse and high/low; drive modes include 2WD, 4WD, Turf, 4WD w/ differential lock",
+        "Horsepower": "72 hp",
+        "Drivetrain": "Direct front and rear driveshafts",
+        "reservHalf": "$50",
+        "reservFull": "$70",
+        "walkInhalf": "$60",
+        "walkInfull": "$80"
+      },
+      {
+        "rentalType": "Jeep Wrangler—2 door",
+        "photo": "sodasprings.jpg",
+        "capacity": 4,
+        "Engine": "3.6L V-6",
+        "MPG": "17 City / 21 Hwy",
+        "Transmission": "6-spd man w/OD",
+        "Horsepower": "285 @ 6400 rpm",
+        "Drivetrain": "Four-Wheel Drive",
+        "reservHalf": "$60",
+        "reservFull": "$85",
+        "walkInhalf": "$70",
+        "walkInfull": "$90"
+      },
+      {
+        "rentalType": "Jeep Wrangler—4 door with a/c",
+        "photo": "sodasprings.jpg",
+        "capacity": 5,
+        "Engine": "3.6L V6 24V VVT eTorque UPG", 
+        "MPG": "17 City / 25 Hwy", 
+        "Transmission": "6-Speed Manual",
+        "Horsepower": "285 hp @ 6400 rpm",
+        "Drivetrain": "Four-Wheel Drive",
+        "reservHalf": "$70",
+        "reservFull": "$100",
+        "walkInhalf": "$85",
+        "walkInfull": "$125"
+      }
+    ]
+  }

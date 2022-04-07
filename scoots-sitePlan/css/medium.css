@@ -1,0 +1,39 @@
+@media only screen and (min-width: 40em) {
+    h1 {
+        font-size: 2.1875rem;
+    }
+    h2 {
+        font-size: 1.5625rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+    h4 {
+        font-size: 1rem;
+    }
+    nav ul {
+        flex-flow: row wrap;
+    }
+    nav ul li a {
+        font-size: 1rem;
+    }
+    #Typography-Table {
+        font-size: 1rem;
+    }
+    #Typography-Table tr td, #Typography-Table tr th {
+        padding: 0.75rem;
+    }
+    #Typography-Table tr td:nth-child(2), 
+    #Typography-Table tr th:nth-child(2),
+    #Typography-Table tr td:nth-child(4), 
+    #Typography-Table tr th:nth-child(4),
+    #Typography-Table tr td:nth-child(5), 
+    #Typography-Table tr th:nth-child(5) {
+	    display: revert;
+    }
+    #TableColor tr td:nth-child(0), 
+    #TableColor tr td:nth-child(7) {
+        display: revert;
+    }
+
+}

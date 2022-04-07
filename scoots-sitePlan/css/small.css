@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patrick+Hand&display=swap');
+
+html {
+	background: #686662;
+}
+body {
+	font-family: "Patrcik Hand", cursive;
+    font-size: 16px;
+	margin: 5rem;
+    background-color: #F6F1EE;
+}
+header, footer, main, nav {
+	max-width: 80rem;
+
+
+}
+header, footer {
+    font-family: "Fredoka One", cursive;
+	background-color: #3F5B44;
+	color: #DC783E;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+header {
+    font-size: 1.875rem;
+    padding: 1rem;
+}
+
+/* navigation - top */
+nav {
+	background-color: #846E42;	
+	text-align: center;
+}
+nav ul {
+	font-family: "Fredoka One", cursive;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	flex-direction: column;
+}
+nav ul li {
+	padding: 1rem;
+	flex: 1 1 auto;
+}
+nav ul li a {
+	padding: 1rem;
+	font-size: 1rem;
+	color:#32CFB2;
+}
+nav a:hover {
+	background-color:#32CFB2;
+	color:#F6F1EE;
+	text-decoration: underline;
+}
+.active {
+	background-color: #DC783E;
+	height: 1.4375rem;
+    border-radius: 1rem;
+}
+.active a:hover {
+	background-color: #DC783E;
+}
+/*end navigation*/
+
+main {
+	padding: 1rem;
+}
+section p, section img {
+	padding-left: 1rem;
+} 
+img {
+	max-width: 1000px;
+	height:	auto;
+}
+li {
+	list-style-type: none;
+}
+hr {
+    border-color: #FD921D;
+}
+main h1 {
+	font-size: 1.5625rem;
+    color: #F7FF00;
+    background-color: #686A6C;
+}
+h2 { 
+	font-family: "Fredoka One", cursive;
+	font-size: 1.25rem;
+    color: #FD921D;
+}
+h3 {
+	font-family: "Fredoka One", cursive;
+	font-size: 1rem;
+    color: #FD921D;
+}
+.titles h3{
+	font-family: "Fredoka One", cursive;
+    background-color: #686A6C;
+}
+
+.titles img {
+	width: 200px;
+}
+
+#domain {
+	width: 1000px;
+}
+
+h4 {
+	font-size: 1rem;
+}
+
+h4 b {
+    text-decoration: underline;
+}
+a {
+	text-decoration: none;
+}
+/* background colors */
+.BG-Cultured {
+	background-color: #F6F7F9;
+}
+.BG-Black {
+	background-color: #000000;
+}
+.BG-DimGray {
+	background-color: #686A6C;
+}
+.BG-Aqua {
+	background-color: #3EF4FA;
+}
+.BG-DarkOrange {
+	background-color: #FD921D;
+}
+.BG-LemonGlacier {
+	background-color: #F7FF00;
+}
+/* text colors */
+.textCultured {
+	color: #F6F7F9;
+}
+.textBlack {
+    color: #000000;
+}
+.textDimGray {
+	color: #686A6C;
+}
+.textAqua {
+	color: #3EF4FA;
+}
+.textDarkOrange {
+	color: #FD921D;
+}
+.textLemonGlacier {
+	color: #F7FF00;
+}
+/* text sizes */
+.size16 {
+	font-size: 1rem;
+}
+.size20 {
+	font-size: 1.25rem;
+}
+.size25 {
+	font-size: 1.5625rem;
+}
+.size30 {
+	font-size: 1.875rem;
+}
+.size40 {
+	font-size: 2.5rem;
+}
+/* color-scheme table settings */
+#TableColor {
+	border-collapse: collapse;
+	margin: 1rem;
+}
+#TableColor tr {
+	height: 300px;
+}
+#TableColor tr td {
+    border:1px solid #000000;
+	text-align: center;
+	vertical-align: bottom;
+	width: 250px;
+	padding: 1rem;
+}
+#TableColor tr td:nth-child(0), 
+#TableColor tr td:nth-child(7) {
+	display: none;
+}
+/*typography table settings */
+#Typography-Table {
+	border-collapse: collapse;
+	margin: 1rem;
+	font-size: 0.6250rem;
+}
+#Typography-Table tr td, #Typography-Table tr th {
+	border:1px solid #000000;
+	padding: 0.3125rem;
+	width: 250px;
+}
+#Typography-Table tr td:nth-child(2), 
+#Typography-Table tr th:nth-child(2),
+#Typography-Table tr td:nth-child(4), 
+#Typography-Table tr th:nth-child(4),
+#Typography-Table tr td:nth-child(5), 
+#Typography-Table tr th:nth-child(5) {
+	display: none;
+}
+
+footer {
+    padding: -2rem;
+}
+
+footer a {
+    color:#3EF4FA;
+    text-decoration: none
+ }
+
+#footer_link:link, #assignment-link:link {
+    
+    color:#3EF4FA;
+    text-decoration: none
+}
+
+#footer_link:hover, #assignment-link:hover {
+    color: #FD921D;
+}
+
+#update_info {
+    color:#F7FF00;
+    text-decoration: none;
+}
