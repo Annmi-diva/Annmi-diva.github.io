@@ -206,12 +206,13 @@ div {
 
 .w-summary {
     margin: 0;
-    background: radial-gradient(#F6F7F9, #3EF4FA);
+    background: radial-gradient(#F6F1EE, #32CFB2);
 }
 
 .w-summary h2, .w-summary p, .w-summary span {
     margin: 0;
     padding: 0.2rem;
+    text-align: center;
 }
 
 .w-summary h2 {

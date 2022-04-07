@@ -94,20 +94,6 @@
         width: 72.2rem;
     }
 
-    .w-summary {
-        position: relative;
-        top: -16rem;
-        right: -2rem;
-        width: 10rem;
-        height: 11rem;
-        width: 11.5rem;
-        background: radial-gradient(#F6F7F9, #3EF4FA);
-        border: 1px solid #000;
-        padding: .5rem;
-        box-shadow: 0 0 30px #686A6C;
-        opacity: 0.9;
-        
-    }
 
     .w-summary h2 {
         font-size: 18px;
@@ -115,7 +101,7 @@
 
     .w-summary p {
         font-size: 14px;
-        text-align: left;
+     
     }
 
     .forecast {
@@ -240,7 +226,7 @@
 
     #First {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex: 1 1 1 1 1 1;
         width: 80%;
         margin-left: 1rem;
