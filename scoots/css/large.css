@@ -175,7 +175,7 @@
     .contact-info p, .contact-info a {
         text-align: left;
     }
-    
+
     .social-media {
         margin-left: 0.8rem;
     }
@@ -239,7 +239,8 @@
     /* Home Page*/
 
     #First {
-        display: flex;  
+        display: flex;
+        flex-direction: row;
         flex: 1 1 1 1 1 1;
         width: 80%;
         margin-left: 1rem;
