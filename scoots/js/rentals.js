@@ -19,6 +19,18 @@ fetch(requestInfo)
 
 		let passangers = document.createElement("h3");
 
+		let engine = document.createElement("h3");
+
+		let mpg = document.createElement("h3");
+
+		let transmission = document.createElement("h3");
+
+		let power = document.createElement("h3");
+
+		let drive = document.createElement("h3");
+
+        let button = document.createElement("button");
+
 		let photo = document.createElement("img");
 
 		//append each child element 
@@ -29,6 +41,23 @@ fetch(requestInfo)
 		passangers.textContent = "Passangers:" + jSonRentals[i].capacity;
 		zoneElemnt.appendChild(passangers);
 
+		engine.textContent = "Engine:" + jSonRentals[i].Engine;
+		zoneElemnt.appendChild(engine);
+
+		mpg.textContent = "MPG: " + jSonRentals[i].MPG;
+		zoneElemnt.appendChild(mpg);
+
+		transmission.textContent = "Transmission: " + jSonRentals[i].Transmission;
+		zoneElemnt.appendChild(transmission);
+
+		power.textContent = "Power:" + jSonRentals[i].Horsepower;
+		zoneElemnt.appendChild(power);
+
+		drive.textContent = "Drive:" + jSonRentals[i].Drivetrain;
+		zoneElemnt.appendChild(drive);
+
+        button.textContent = "Rent";
+		zoneElemnt.appendChild(button);
 
 		photo.setAttribute("src", "img/" + jSonRentals[i].photo);
 		photo.setAttribute("alt", jSonRentals[i].rentalType + " - " + (i + 1));
