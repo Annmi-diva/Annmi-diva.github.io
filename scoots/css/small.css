@@ -539,6 +539,36 @@ form label.top input:required:valid {
     width: 100%;
 }
 
+#frase1 {
+    position: relative;
+    font-size: 1rem;
+    top: -4rem;
+    left: 0.5rem;
+    color: #8bffea;
+    -webkit-text-stroke: 1px #09342C;
+    line-height: -1rem;
+}
+
+
+#frase2 {
+    position: relative;
+    font-size: 1rem;
+    text-align: center;
+    top: -10rem;
+    left: 7rem;
+    color: #fff700;
+    -webkit-text-stroke: 1px #DA0C0C;
+}
+
+.invite button {
+    position: relative;
+    font-size: 1rem;
+    top: -10em;
+    left: 17rem;
+    background-color: #DC783E;
+    color: #F6F1EE;
+}
+
 /* upcoming events*/
 
 .events {

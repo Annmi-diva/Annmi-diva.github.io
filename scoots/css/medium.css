@@ -277,6 +277,33 @@
         flex-direction: row-reverse;
     }
 
+    #frase1 {
+        position: relative;
+        font-size: 1.4rem;
+        top: -18rem;
+        left: 1.5rem;
+        color: #F6F1EE;
+        -webkit-text-stroke: 0.5px #DC783E;
+    }
+    
+    
+    #frase2 {
+        position: relative;
+        font-size: 1.9rem;
+        text-align: center;
+        top: -21rem;
+        left: 18rem;
+        color: #09342C;
+        -webkit-text-stroke: 1px #32CFB2;
+    }
+    
+    .invite button {
+        position: relative;
+        font-size: 2.5rem;
+        top: -21rem;
+        left: 39rem;
+    }
+
     /* upcoming events*/
 
     .events {
