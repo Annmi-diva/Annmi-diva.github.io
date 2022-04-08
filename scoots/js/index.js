@@ -1,4 +1,4 @@
-const requestInfo = "../scoots/data/rental.json";
+const requestInfo = "https://drive.google.com/file/d/19XuA5Dn0Jbtzd0M0a3HZJeNdWXaHtmnq/view?usp=sharing";
 
 fetch(requestInfo)
   .then(function (response) {

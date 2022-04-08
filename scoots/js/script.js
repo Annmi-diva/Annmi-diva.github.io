@@ -113,18 +113,6 @@ btn.onclick = function cast() {
 
 window.onresize = () => {if (window.innerWidth > 760) btn.remove(onclick())};
 
-// to get the banner for the pancakes announsment on fridays //
-if (message === "Friday") {
-
-    const foodbanner = document.createElement("p");
-    foodbanner.className = "avisoBanner"
-    const foodtext = document.createTextNode("Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.");
-    foodbanner.appendChild(foodtext);
-
-    const element = document.getElementById("theHead");
-    element.appendChild(foodbanner);
-}
-
 // to get the wind-chill //
 
 var t = parseInt(document.getElementById("Currently").textContent);

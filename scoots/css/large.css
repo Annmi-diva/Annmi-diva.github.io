@@ -229,26 +229,26 @@
         flex-direction: column;
         flex: 1 1 1 1 1 1;
         width: 80%;
-        margin-left: 1rem;
+        margin-left: 5rem;
         margin-top: -2rem;
         margin-bottom: 2rem;
     }
 
-        #First hr {
+    #First hr {
         display: none;
     }
 
     .zone1, .zone2, .zone3, .zone4, .zone5, .zone6 {
         flex-direction: column;
         border-radius: 2rem;
-        background-color: #3EF4FA;
+        background-color: #846E42;
         margin: 1rem;
         padding: 0.5rem;
     }
 
     .zone1 h1, .zone2 h1, .zone3 h1, .zone4 h1, .zone5 h1, .zone6 h1 {
         text-align: center;
-        color:#686A6C;
+        color:#32CFB2;
         font-size: 30px;
         margin: 1rem 0.5rem 0.5rem 0.5rem;
     }
@@ -262,7 +262,11 @@
 
     .zone1 img, .zone2 img, .zone3 img, .zone4 img, .zone5 img, .zone6 img {
         border-radius: 2rem;
-        margin: 1rem;
+        margin: 1rem 5rem 1rem 1rem;
+    }
+
+    .invite {
+        margin-bottom: -18rem;
     }
 
     #frase1 {

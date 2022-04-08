@@ -226,6 +226,7 @@
 
     /* Home Page*/
 
+
     #First hr {
         display: none;
     }
@@ -234,14 +235,14 @@
         display: flex;
         flex-direction: row;
         border-radius: 2rem;
-        background-color: #3EF4FA;
+        background-color:#846E42;
         margin: 2rem;
         padding: 1rem;
     }
 
     .zone1 h1, .zone2 h1, .zone3 h1, .zone4 h1, .zone5 h1, .zone6 h1 {
         text-align: center;
-        color:#686A6C;
+        color:#32CFB2;
         font-size: 25px;
         margin: 2rem 1rem 1rem 1rem;
     }
@@ -260,6 +261,10 @@
 
     .zone2, .zone4, .zone6 {
         flex-direction: row-reverse;
+    }
+
+    .invite {
+        margin-bottom: -15rem;
     }
 
     #frase1 {
