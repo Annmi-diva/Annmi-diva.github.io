@@ -30,7 +30,15 @@ fetch(requestInfo)
 
 		let power = document.createElement("h3");
 
-		let drive = document.createElement("h3");
+        let drive = document.createElement("h3");
+
+		let reservHalf = document.createElement("h3");
+
+        let reservFull = document.createElement("h3");
+
+        let walkinHalf = document.createElement("h3");
+
+        let wamkinFull = document.createElement("h3");
 
         let button = document.createElement("button");
 
@@ -60,6 +68,18 @@ fetch(requestInfo)
 
 		drive.textContent = "Drive:" + jSonRentals[i].Drivetrain;
 		zoneElemnt.appendChild(drive);
+
+        reservHalf.textContent = "Rent-Half Day (3 hours):" + jSonRentals[i].reservHalf;
+		zoneElemnt.appendChild(reservHalf);
+
+        reservFull.textContent = "Rent-Full Day:" + jSonRentals[i].reservFull;
+		zoneElemnt.appendChild(reservFull);
+
+        walkinHalf.textContent = "Walk-In's Half Day (3 hours):" + jSonRentals[i].walkInhalf;
+		zoneElemnt.appendChild(walkinHalf);
+
+        walkinFull.textContent = "Walk-In's Full Day:" + jSonRentals[i].walkInfull;
+		zoneElemnt.appendChild(walkinFull);
 
         button.textContent = "Rent";
 		zoneElemnt.appendChild(button);
