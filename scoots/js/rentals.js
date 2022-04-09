@@ -38,7 +38,7 @@ fetch(requestInfo)
 
         let walkinHalf = document.createElement("h3");
 
-        let wamkinFull = document.createElement("h3");
+        let walkinFull = document.createElement("h3");
 
         let button = document.createElement("button");
 
