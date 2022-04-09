@@ -184,34 +184,36 @@
 
     /*Gallery Page*/
 
-    #G-title {
-        font-size: 1.875rem;
-        margin-left: -3rem;
-        text-align: left;
-
+    .tours {
+        display: flex;
+        border : 1px solid #09342C;
+        border-radius: 5rem;
+        padding: 3rem;
+        margin: 1rem;
     }
 
-    .img-g {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 1em;
-        padding: 5px;
-        margin-bottom: 15px;
-        margin-left: -5rem;
+    .tours img {
+        border-radius: 5rem;
     }
 
-    .gallery {
-        width: 350px;
-        height: 300px;
-        display: block;
-        box-shadow: 0 6px 10px 0 rgba(34, 34, 34, 0.2), 0 6px 20px 0 rgba(36, 36, 36, 0.19);
+    .tours a {
+        display: flex;
+        flex: 1 1;
     }
 
-    .gallery:hover {
-        box-shadow: 0 0 40px #242424;        
+    .tours:hover {
+        background-color: #686662;
     }
 
+    .sec1 a, .sec3 a {
+        flex-direction: row;
+    }
+
+    .sec2 a, .sec4 a {
+        flex-direction: row-reverse;
+    }
+
+ 
     /* contact page*/
 
     .contact-form {

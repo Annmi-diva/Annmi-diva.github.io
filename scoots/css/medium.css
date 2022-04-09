@@ -200,19 +200,16 @@
     }
 
     /*Gallery Page*/
-
-    .img-g {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 1em;
-        padding: 5px;
+    .tours {
+        border : 1px solid #09342C;
+        border-radius: 5rem;
+        padding: 3rem;
+        margin: 1rem;
     }
 
-    .gallery {
-        width: 350px;
-        height: 300px;
+    .tours img {
+        border-radius: 5rem;
     }
-    
 
     /* Home Page*/
 
