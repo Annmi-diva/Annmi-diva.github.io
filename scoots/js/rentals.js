@@ -18,7 +18,7 @@ fetch(requestInfo)
 
         let photo = document.createElement("img");
         
-		let Tittle = document.createElement('h1');
+		let Tittle = document.createElement('h2');
 
 		let passangers = document.createElement("h3");
 
@@ -63,6 +63,12 @@ fetch(requestInfo)
 
         button.textContent = "Rent";
 		zoneElemnt.appendChild(button);
+        document.querySelector(button).addEventListener("click", gotoUrl);
+    
+        function gotoUrl() {
+            window.location.assign("https://annmi-diva.github.io/scoots/reservations.html");
+        }
+
 
 		let zoneClass = "div.zoneR" + (i + 1);
 		document.querySelector(zoneClass).appendChild(zoneElemnt);

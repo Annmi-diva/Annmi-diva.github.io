@@ -532,3 +532,37 @@ form input.submitBtn:hover {
 #contact-title{
     text-align: center;
 }
+
+/*Rental page*/
+#Second {
+    display: block; 
+ }
+
+ #Second hr {
+     border: none;
+     background-color: #846E42;
+     width: 100%;
+     height: 0.2rem;
+ }
+
+.zoneR1, .zoneR2, .zoneR3, .zoneR4, .zoneR5, .zoneR6 {
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.zoneR1 h1, .zoneR2 h1, .zoneR3 h1, .zoneR4 h1, .zoneR5 h1, .zoneR6 h1 {
+    text-align: center;
+    color:#FD921D;
+    font-size: 30px;
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+}
+
+.zoneR1 h3, .zoneR2 h3, .zoneR3 h3, .zoneR4 h3, .zoneR5 h3, .zoneR6 h3 {
+    text-align: center;
+    font-size: 20px;
+    margin: 0rem 0.5rem 1rem 0.5rem;
+    }
+
+.zoneR1 img, .zoneR2 img, .zoneR3 img, .zoneR4 img, .zoneR5 img, .zoneR6 img {
+    margin: 1rem;
+}

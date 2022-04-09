@@ -271,7 +271,7 @@
 
     #frase1 {
         position: relative;
-        font-size: 1.4rem
+        font-size: 1.4rem;
         top: -18rem;
         left: 1.5rem;
         line-height: 3rem;
@@ -292,3 +292,48 @@
         top: -21rem;
         left: 39rem;
     }
+
+    /*Rental page*/
+
+    #Second {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 1 1 1 1;
+        width: 80%;
+        margin-left: 5rem;
+        margin-top: -2rem;
+        margin-bottom: 2rem;
+    }
+
+    #First hr {
+        display: none;
+    }
+
+    .zoneR1, .zoneR2, .zoneR3, .zoneR4, .zoneR5, .zoneR6 {
+        flex-direction: column;
+        border-radius: 2rem;
+        background-color: #846E42;
+        margin: 1rem;
+        padding: 0.5rem;
+    }
+
+    .zoneR1 h1, .zoneR2 h1, .zoneR3 h1, .zoneR4 h1, .zoneR5 h1, .zoneR6 h1 {
+        text-align: center;
+        color:#32CFB2;
+        font-size: 30px;
+        margin: 1rem 0.5rem 0.5rem 0.5rem;
+    }
+
+
+    .zoneR1 h3, .zoneR2 h3, .zoneR3 h3, .zoneR4 h3, .zoneR5 h3, .zoneR6 h3 {
+        text-align: center;
+        font-size: 20px;
+        margin: 0rem 0.5rem 1rem 0.5rem;
+    }
+
+    .zoneR1 img, .zoneR2 img, .zoneR3 img, .zoneR4 img, .zoneR5 img, .zoneR6 img {
+        border-radius: 2rem;
+        margin: 1rem 5rem 1rem 1rem;
+    }
+
+}

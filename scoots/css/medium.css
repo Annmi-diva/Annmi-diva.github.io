@@ -281,9 +281,51 @@
         left: 30rem;
     }
 
+    /*Rental page*/
+
+    #Second hr {
+        display: none;
+    }
+
+    .zoneR1, .zoneR2, .zoneR3, .zoneR4, .zoneR5, .zoneR6  {
+       display: flex;
+       flex-direction: row;
+       border-radius: 2rem;
+       background-color:#846E42;
+       margin: 2rem;
+       padding: 1rem;
+    }
+
+    .zoneR1 h1, .zoneR2 h1, .zoneR3 h1, .zoneR4 h1, .zoneR5 h1, .zoneR6 h1 {
+        text-align: center;
+        color:#32CFB2;
+        font-size: 25px;
+        margin: 2rem 1rem 1rem 1rem;
+    }
+
+
+    .zoneR1 h3, .zoneR2 h3, .zoneR3 h3, .zoneR4 h3, .zoneR5 h3, .zoneR6 h3 {
+        text-align: center;
+        font-size: 18px;
+        margin: 0rem 1rem 2rem 1rem;
+    }
+
+    .zoneR1 img, .zoneR2 img, .zoneR3 img, .zoneR4 img, .zoneR5 img, .zoneR6 img {
+        border-radius: 2rem;
+        margin: 2rem;
+    }
+
+    .zoneR2, .zoneR4, .zoneR6 {
+        flex-direction: row-reverse;
+    }
+    
+
+    
+ 
 
     
 }
+
 
 
 
