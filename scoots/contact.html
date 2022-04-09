@@ -39,58 +39,102 @@
             <ul class="navigation">
                 <li><a class= "menu" href="#"> </a></li>
                 <li><a href="https://annmi-diva.github.io/scoots/index.html">HOME</a></li>
-                <li class="active"><a href="https://annmi-diva.github.io/scoots/rentals.html">RENTALS</a></li>
+                <li><a href="https://annmi-diva.github.io/scoots/rentals.html">RENTALS</a></li>
                 <li><a href="https://annmi-diva.github.io/scoots/reservations.html">RESERVASIONS</a></li>
                 <li><a href="https://annmi-diva.github.io/scoots/tours.html">TOURS</a></li>
-                <li><a href="https://annmi-diva.github.io/scoots/contact.html">CONTACT</a></li>
+                <li class="active"><a href="https://annmi-diva.github.io/scoots/contact.html">CONTACT</a></li>
  
             </ul>
 
         </nav>
 
-        <main>
+        <main class="contact-form">
 
-            <form method="get" action="thanks.html" class="form-contra">
+            <div class="Specifications">
+                <h1>Information and Services</h1>
+                <ul>
+
+                   <li>A $50 security deposit is required to confirm reservations.</li> 
+                   <li>A valid drivers license is required in hand at time of rental.</li>
+                   <li>No one under 12 years of age is allowed to ride on the scooters.</li>
+                   <li>Fuel charge not included.</li>
+                   <li>Unlimited mileage.</li>
+                   <li>Liability insurance is free of charge.</li>
+                   <li>Reservations rate requires 24 hour prior notification.</li>
+                   <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+                   <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+                   <li>Rentals may be returned to either location.</li>
+                
+                </ul>
+            </div>
+
+            <form method="get" action="thanks.html" class="form-rental">
                 <fieldset>
-                    <h3>Personal Information</h3>
+                    <h3>Renter Information</h3>
                     <label class="info">
-                        Full name:
-                            <input  type="name" name="name" placeholder="Jermain Lopez Andino" pattern="([a-zA-Z-]{1,})([' ']?)([a-zA-Z-]{4,})([' ']?)([a-zA-Z-]{0,})" required>
+                        Full name:<br>
+                            <input  type="name" name="name" placeholder="Jim Smith" pattern="([a-zA-Z-]{1,})([' ']?)([a-zA-Z-]{4,})([' ']?)([a-zA-Z-]{0,})" required>
                     </label>
                     <label class="info">
-                        eMail:
-                        <input type="email" name="email" placeholder="user@email.org" required></label>
+                        <br>eMail:<br>
+                        <input type="email" name="email" placeholder="user@gmail.com" required>
+                    </label>
                     <label class="info"> 
-                        Phone:
-                            <input type="tel" name="phone" placeholder="###-###-####" required></label>
+                        <br>Phone:<br>
+                            <input type="tel" name="phone" placeholder="###-###-####" required
+                            ></label>
                     <label for="zip" class="info">
-                        Cruise line if applicable:
-                        <input type="text" name="zip" placeholder="12345" pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep" ></label>
-                    <label class="info">
-                        Country:
-                            <input  type="Country" name="Country" placeholder="Mexico" pattern="([a-zA-Z-])" required>
+                        <br>Cruise line if applicable:<br>
+                        <input type="text" name="Cruise" placeholder="Seaven Seas #48852" pattern="([a-zA-Z-])">
                     </label>
                     <label class="info">
-                        Direction:
-                            <input  type="Direction" name="Direction" placeholder="215 E 2nd S, Cuzmel, ID 83263, Mexico" pattern="([a-zA-Z-])" required>
+                        <br>Country:<br>
+                            <input  type="Country" name="Country" placeholder="United States" pattern="([a-zA-Z-]{3,})([' ']?)([a-zA-Z-]{3,})" required>
+                    </label>
+                    <label class="info">
+                        <br> Address:<br>
+                            <input  type="Address" name="Address" placeholder="234 S State St Orem UT 48047" required>
                     </label>
                 </fieldset>
     
                 <fieldset>
                     <h3>When are you going to rent your equipment?</h3>
+
                     <label class="info">
-                        Date:
-                        <input type="date" name="theDate"></label>
+                        From:<br>
+                        <input type="date" name="Dates"></label>
+                        <label class="info">
+                            <br>To:<br>
+                            <input type="date" name="Dates"></label>
+                            <label class="info">
+                            <br>Rental Type:<br>
+                            <select name="rental-type" id="select-type" onchange="selectResponse4()" required>
+                                <option value="" disabled selected>Select Type ...</option>
+                                <option value="Scooter">Honda Metro Scooter</option>
+                                <option value="Scooter">Honda Dio Scooter</option>
+                                <option value="Scooter">Honda PCX150 Scooter</option>
+                                <option value="ATV">Honda Pioneer ATV</option>
+                                <option value="Jeep">Jeep Wrangler—2 door</option>
+                                <option value="Jeep">"Jeep Wrangler—4 door with a/c"</option>
+                            </select>
+                        </label>
+
+                        <label for="zip" class="info">
+                            <br>Rental Quantity:<br>
+                            <input type="number" name="Quantity" placeholder="2" pattern="([1-100])">
+                        </label>
+                        
                     <label class="info">
-                        Rental Time:
-                        <select name="Storm-region" id="select-time" onchange="selectResponse4()" required>
+                        <br>Rental Time:<br>
+                        <select name="rental-time" id="select-time" onchange="selectResponse4()" required>
                             <option value="" disabled selected>Select Time ...</option>
                             <option value="Half">Half Day(3 hrs)</option>
                             <option value="Full">Full Day</option>
                         </select>
                     </label>
+
                 </fieldset>
-                <fieldset class="nestedfieldset">
+                <fieldset class="conditions">
                     <legend>I accept all the conditions</legend>
                     <div class="selection">
                         <input type="checkbox" id="coding" name="interest" value="coding" required>
@@ -108,30 +152,6 @@
                     <div id="first"></div><input type="submit" value="Submit Information" class="submitBtn"><div id="second"></div>
                     <div id="line-bottom"></div>
             </form>
-            <div class="Specifications">
-                <h1>TRANSPORT VEHICLE LEASE AGREEMENT</h1>
-                <ul>
-                    <h2>Specifications</h2>
-                    <br>
-                    <br>
-                    <li>The lessor owns the vehicle.</li>
-                    <br>
-                    <br>
-                    <li>THE LESSOR certifies that the vehicle referred to in the preceding clause
-                         is in good mechanical condition and conservation of bodywork, paint, and 
-                         accessories, without greater wear than that produced by normal and ordinary use.</li>
-                    <br>
-                    <br>
-                    <li>By this contract, THE LESSOR undertakes to transfer the use of the property described in the 
-                        first clause in favor of THE LESSEE, by way of lease. For its part, THE LESSEE undertakes 
-                        to pay THE LESSOR the amount of the rent agreed in the following clause, in the manner 
-                        and at the agreed time.</li>
-                </ul>
-            </div>
-
-       
-
-                                    
 
         </main>
          

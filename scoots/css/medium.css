@@ -213,16 +213,6 @@
         height: 300px;
     }
     
-    /* Storm Center*/
-
-    form fieldset {
-        padding: .5rem .5rem 1rem 1rem;
-    }
-
-    form label.top input, form label.top select {
-        padding: .6rem;
-    }
-
 
     /* Home Page*/
 
