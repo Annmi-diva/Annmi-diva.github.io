@@ -48,28 +48,114 @@
 
         </nav>
 
-        <main  >
+        <main >
 
-            <h1>Our Rentals</h1>
+            <section class="reservations-form">
 
-            <section id= "First">
+            <div class="Specifications">
+                <h1>Information and Services</h1>
+                <ul>
 
-                <div class="zoneR1"></div>
-                <hr>
-                <div class="zoneR2"></div>
-                <hr>
-                <div class="zoneR3"></div>
-                <hr>
-                <div class="zoneR4"></div>
-                <hr>
-                <div class="zoneR5"></div>
-                <hr>
-                <div class="zonR6"></div>
+                   <li>A $50 security deposit is required to confirm reservations.</li> 
+                   <li>A valid drivers license is required in hand at time of rental.</li>
+                   <li>No one under 12 years of age is allowed to ride on the scooters.</li>
+                   <li>Fuel charge not included.</li>
+                   <li>Unlimited mileage.</li>
+                   <li>Liability insurance is free of charge.</li>
+                   <li>Reservations rate requires 24 hour prior notification.</li>
+                   <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+                   <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+                   <li>Rentals may be returned to either location.</li>
+                
+                </ul>
+            </div>
+
+            <form method="get" action="thanks.html" class="form-rental">
+                <fieldset>
+                    <h3>Renter Information</h3>
+                    <label class="info">
+                        Full name:<br>
+                            <input  type="name" name="name" placeholder="Jim Smith" pattern="([a-zA-Z-]{1,})([' ']?)([a-zA-Z-]{4,})([' ']?)([a-zA-Z-]{0,})" required>
+                    </label>
+                    <label class="info">
+                        <br>eMail:<br>
+                        <input type="email" name="email" placeholder="user@gmail.com" required>
+                    </label>
+                    <label class="info"> 
+                        <br>Phone:<br>
+                            <input type="tel" name="phone" placeholder="###-###-####" required
+                            ></label>
+                    <label for="zip" class="info">
+                        <br>Cruise line if applicable:<br>
+                        <input type="text" name="Cruise" placeholder="Seaven Seas #48852" pattern="([a-zA-Z-])">
+                    </label>
+                    <label class="info">
+                        <br>Country:<br>
+                            <input  type="Country" name="Country" placeholder="United States" pattern="([a-zA-Z-]{3,})([' ']?)([a-zA-Z-]{3,})" required>
+                    </label>
+                    <label class="info">
+                        <br> Address:<br>
+                            <input  type="Address" name="Address" placeholder="234 S State St Orem UT 48047" required>
+                    </label>
+                </fieldset>
+    
+                <fieldset>
+                    <h3>When are you going to rent your equipment?</h3>
+
+                    <label class="info">
+                        From:<br>
+                        <input type="date" name="Dates"></label>
+                        <label class="info">
+                            <br>To:<br>
+                            <input type="date" name="Dates"></label>
+                            <label class="info">
+                            <br>Rental Type:<br>
+                            <select name="rental-type" id="select-type" onchange="selectResponse4()" required>
+                                <option value="" disabled selected>Select Type ...</option>
+                                <option value="Scooter">Honda Metro Scooter</option>
+                                <option value="Scooter">Honda Dio Scooter</option>
+                                <option value="Scooter">Honda PCX150 Scooter</option>
+                                <option value="ATV">Honda Pioneer ATV</option>
+                                <option value="Jeep">Jeep Wrangler—2 door</option>
+                                <option value="Jeep">"Jeep Wrangler—4 door with a/c"</option>
+                            </select>
+                        </label>
+
+                        <label for="zip" class="info">
+                            <br>Rental Quantity:<br>
+                            <input type="number" name="Quantity" placeholder="2" pattern="([1-100])">
+                        </label>
+                        
+                    <label class="info">
+                        <br>Rental Time:<br>
+                        <select name="rental-time" id="select-time" onchange="selectResponse4()" required>
+                            <option value="" disabled selected>Select Time ...</option>
+                            <option value="Half">Half Day(3 hrs)</option>
+                            <option value="Full">Full Day</option>
+                        </select>
+                    </label>
+
+                </fieldset>
+                <fieldset class="conditions">
+                    <legend>I accept all the conditions</legend>
+                    <div class="selection">
+                        <input type="checkbox" id="coding" name="interest" value="coding" required>
+                        <label for="coding"> I accept</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <br>
+                    <label class="info" for="msg">Additional information:
+                    <textarea id="msg" name="user_message"  style="width: 80%; height: 200px;"></textarea></label>
+                    <br>
+                    <br>
+                </fieldset>
+                <div id="line-top"></div>
+                    <div id="first"></div><input type="submit" value="Submit Information" class="submitBtn"><div id="second"></div>
+                    <div id="line-bottom"></div>
+            </form>
 
             </section>
-
-
-            </div>
 
             <div class= "contentbox contact">
 

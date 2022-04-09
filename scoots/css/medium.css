@@ -281,17 +281,7 @@
         left: 30rem;
     }
 
-    /* upcoming events*/
 
-    .events {
-        position: relative;
-        left: 10rem;
-        width: 50%;
-    }
-
-    .events hr {
-        width: 20rem;
-    }
     
 }
 

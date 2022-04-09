@@ -359,7 +359,7 @@ footer p {
     border-radius: 5rem;
 }
 
-/* Contact Page */
+/* Reservations Page */
 
 .form-rental fieldset {
     box-sizing: content-box;
@@ -527,27 +527,8 @@ form input.submitBtn:hover {
     color: #F6F1EE;
 }
 
-/* upcoming events*/
+/* contact page*/
 
-.events {
-    background-color: rgba(62, 244, 250, 0.4);
-    padding: 0.5rem;
+#contact-title{
     text-align: center;
-}
-
-.events h2 {
-    text-align: center;
-}
-
-.events hr {
-    width: 25rem;
-    margin-top: -1rem;
-    height: 1px;
-    background: #686A6C;
-    border: #686A6C;
-    border-radius: 10rem;
-}
-
-.events h3 {
-   font-size: 18px;
 }

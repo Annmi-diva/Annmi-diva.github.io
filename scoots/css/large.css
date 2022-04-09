@@ -214,9 +214,9 @@
     }
 
  
-    /* contact page*/
+    /* Reservations page*/
 
-    .contact-form {
+    .reservations-form {
      display:flex;
      flex-direction: row;
      flex: 1 1;
@@ -271,7 +271,7 @@
 
     #frase1 {
         position: relative;
-        font-size: 1.4rem;
+        font-size: 1.4rem
         top: -18rem;
         left: 1.5rem;
         line-height: 3rem;
@@ -292,13 +292,3 @@
         top: -21rem;
         left: 39rem;
     }
-
-    /* upcoming events*/
-
-    .events {
-        position: relative;
-        left: 17rem;
-        width: 50%;
-    }
-
-}
