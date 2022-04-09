@@ -15,6 +15,9 @@ fetch(requestInfo)
 		//Variables
 		let zoneElemnt = document.createElement('section');
 		let zoneElemnt2 = document.createElement('div');
+
+        let photo = document.createElement("img");
+        
 		let Tittle = document.createElement('h1');
 
 		let passangers = document.createElement("h3");
@@ -31,9 +34,11 @@ fetch(requestInfo)
 
         let button = document.createElement("button");
 
-		let photo = document.createElement("img");
-
 		//append each child element 
+
+        photo.setAttribute("src", "img/" + jSonRentals[i].photo);
+		photo.setAttribute("alt", jSonRentals[i].rentalType + " - " + (i + 1));
+		zoneElemnt2.appendChild(photo);
 
 		Tittle.textContent = jSonRentals[i].rentalType;
 		zoneElemnt.appendChild(Tittle);
@@ -59,10 +64,7 @@ fetch(requestInfo)
         button.textContent = "Rent";
 		zoneElemnt.appendChild(button);
 
-		photo.setAttribute("src", "img/" + jSonRentals[i].photo);
-		photo.setAttribute("alt", jSonRentals[i].rentalType + " - " + (i + 1));
-		zoneElemnt2.appendChild(photo);
-		let zoneClass = "div.zone" + (i + 1);
+		let zoneClass = "div.zoneR" + (i + 1);
 		document.querySelector(zoneClass).appendChild(zoneElemnt);
 		document.querySelector(zoneClass).appendChild(zoneElemnt2);
     }
