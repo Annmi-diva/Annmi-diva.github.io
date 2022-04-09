@@ -93,5 +93,5 @@ fetch(requestInfo)
 		let zoneClass = "div.zoneR" + (i + 1);
 		document.querySelector(zoneClass).appendChild(zoneElemnt);
 		document.querySelector(zoneClass).appendChild(zoneElemnt2);
-    }
+    
   });
