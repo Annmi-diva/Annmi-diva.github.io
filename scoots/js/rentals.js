@@ -82,16 +82,18 @@ fetch(requestInfo)
 		zoneElemnt.appendChild(walkinFull);
 
         button.textContent = "Rent";
-		zoneElemnt.appendChild(button);
-        document.querySelector(button).addEventListener("click", gotoUrl);
+        button.classList.add("button");
+        zoneElemnt.appendChild(button);
+        
+		let zoneClass = "div.zoneR" + (i + 1);
+		document.querySelector(zoneClass).appendChild(zoneElemnt);
+		document.querySelector(zoneClass).appendChild(zoneElemnt2);
+
+        document.getElementsByClassName("button").addEventListener("click", gotoUrl);
     
         function gotoUrl() {
             window.location.assign("https://annmi-diva.github.io/scoots/reservations.html");
         }
 
-
-		let zoneClass = "div.zoneR" + (i + 1);
-		document.querySelector(zoneClass).appendChild(zoneElemnt);
-		document.querySelector(zoneClass).appendChild(zoneElemnt2);
     
   });
