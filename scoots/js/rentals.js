@@ -94,6 +94,6 @@ fetch(requestInfo)
         function gotoUrl() {
             window.location.assign("https://annmi-diva.github.io/scoots/reservations.html");
         }
-
+    }
     
   });
