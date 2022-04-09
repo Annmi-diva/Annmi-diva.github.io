@@ -75,10 +75,10 @@ fetch(requestInfo)
         reservFull.textContent = "Rent-Full Day:" + jSonRentals[i].reservFull;
 		zoneElemnt.appendChild(reservFull);
 
-        walkinHalf.textContent = "Walk-In's Half Day (3 hours):" + jSonRentals[i].walkInhalf;
+        walkinHalf.textContent = "Walk-In(s) Half Day (3 hours):" + jSonRentals[i].walkInhalf;
 		zoneElemnt.appendChild(walkinHalf);
 
-        walkinFull.textContent = "Walk-In's Full Day:" + jSonRentals[i].walkInfull;
+        walkinFull.textContent = "Walk-In(s) Full Day:" + jSonRentals[i].walkInfull;
 		zoneElemnt.appendChild(walkinFull);
 
         button.textContent = "Rent";
