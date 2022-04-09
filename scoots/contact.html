@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en-us">
+
+    <head>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Scoots Home Page</title>
+      <meta name="author" content="Anna Berrett">
+      <meta name="description" content=" Home page for Scoots website.">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patrick+Hand&display=swap" rel="stylesheet">
+      <link  rel="stylesheet" href="css/normalize.css">
+      <link  rel="stylesheet" href="css/small.css">
+      <link  rel="stylesheet" href="css/medium.css">
+      <link  rel="stylesheet" href="css/large.css">   
+
+    </head>
+
+    <body>
+
+        <div id="theHead"></div>
+
+        <header>
+
+                <img class="logo" src="img/scoots-logo.svg" alt="Scoots Logo">
+
+
+            <section class="title">
+                <h1 class=" brand-name">Scoots</h1>
+                <div>"For does who like adventure!"</div>
+            </section>   
+
+        </header>
+
+        <nav>
+
+            <ul class="navigation">
+                <li><a class= "menu" href="#"> </a></li>
+                <li><a href="https://annmi-diva.github.io/scoots/index.html">HOME</a></li>
+                <li class="active"><a href="https://annmi-diva.github.io/scoots/rentals.html">RENTALS</a></li>
+                <li><a href="https://annmi-diva.github.io/scoots/reservations.html">RESERVASIONS</a></li>
+                <li><a href="https://annmi-diva.github.io/scoots/tours.html">TOURS</a></li>
+                <li><a href="https://annmi-diva.github.io/scoots/contact.html">CONTACT</a></li>
+ 
+            </ul>
+
+        </nav>
+
+        <main>
+
+            <form method="get" action="thanks.html" class="form-contra">
+                <fieldset>
+                    <h3>Personal Information</h3>
+                    <label class="info">
+                        Full name:
+                            <input  type="name" name="name" placeholder="Jermain Lopez Andino" pattern="([a-zA-Z-]{1,})([' ']?)([a-zA-Z-]{4,})([' ']?)([a-zA-Z-]{0,})" required>
+                    </label>
+                    <label class="info">
+                        eMail:
+                        <input type="email" name="email" placeholder="user@email.org" required></label>
+                    <label class="info"> 
+                        Phone:
+                            <input type="tel" name="phone" placeholder="###-###-####" required></label>
+                    <label for="zip" class="info">
+                        Cruise line if applicable:
+                        <input type="text" name="zip" placeholder="12345" pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep" ></label>
+                    <label class="info">
+                        Country:
+                            <input  type="Country" name="Country" placeholder="Mexico" pattern="([a-zA-Z-])" required>
+                    </label>
+                    <label class="info">
+                        Direction:
+                            <input  type="Direction" name="Direction" placeholder="215 E 2nd S, Cuzmel, ID 83263, Mexico" pattern="([a-zA-Z-])" required>
+                    </label>
+                </fieldset>
+    
+                <fieldset>
+                    <h3>When are you going to rent your equipment?</h3>
+                    <label class="info">
+                        Date:
+                        <input type="date" name="theDate"></label>
+                    <label class="info">
+                        Rental Time:
+                        <select name="Storm-region" id="select-time" onchange="selectResponse4()" required>
+                            <option value="" disabled selected>Select Time ...</option>
+                            <option value="Half">Half Day(3 hrs)</option>
+                            <option value="Full">Full Day</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset class="nestedfieldset">
+                    <legend>I accept all the conditions</legend>
+                    <div class="selection">
+                        <input type="checkbox" id="coding" name="interest" value="coding" required>
+                        <label for="coding"> I accept</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <br>
+                    <label class="info" for="msg">Additional information:
+                    <textarea id="msg" name="user_message"  style="width: 80%; height: 200px;"></textarea></label>
+                    <br>
+                    <br>
+                </fieldset>
+                <div id="line-top"></div>
+                    <div id="first"></div><input type="submit" value="Submit Information" class="submitBtn"><div id="second"></div>
+                    <div id="line-bottom"></div>
+            </form>
+            <div class="Specifications">
+                <h1>TRANSPORT VEHICLE LEASE AGREEMENT</h1>
+                <ul>
+                    <h2>Specifications</h2>
+                    <br>
+                    <br>
+                    <li>The lessor owns the vehicle.</li>
+                    <br>
+                    <br>
+                    <li>THE LESSOR certifies that the vehicle referred to in the preceding clause
+                         is in good mechanical condition and conservation of bodywork, paint, and 
+                         accessories, without greater wear than that produced by normal and ordinary use.</li>
+                    <br>
+                    <br>
+                    <li>By this contract, THE LESSOR undertakes to transfer the use of the property described in the 
+                        first clause in favor of THE LESSEE, by way of lease. For its part, THE LESSEE undertakes 
+                        to pay THE LESSOR the amount of the rent agreed in the following clause, in the manner 
+                        and at the agreed time.</li>
+                </ul>
+            </div>
+
+       
+
+                                    
+
+        </main>
+         
+        <footer>
+            <div class= "contentbox contact">
+
+
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <p>📍 Av. Rafael E. Melgar, Centro, 77600 San Miguel de Cozumel, Q.R., Mexico</p>
+                    <p>📧 <a href="#"> customerinfo@scoots.com</a></p>
+                    <p>☎️ +52 (987) 564-3879</p>
+
+                    <div class="social-media">
+
+                        <a class="icon" href="https://www.facebook.com" target="_blank">
+                            <img
+                            class="icon" id="face"
+                            src="img/Facebook-icon.svg"
+                            alt="Facebook icon"/>
+                        </a>
+
+                        <a class="icon" href="https://www.instagram.com" target="_blank">
+                            <img
+                            class="icon" id="insta"
+                            src="img/Insta-icon.svg" 
+                            alt="Instagram icon"/>
+                        </a>
+
+                        <a class="icon" href="https://www.twitter.com/" target="_blank">
+                            <img
+                            class="icon" id="twit"
+                            src="img/Twitter_icon.svg"
+                            alt="Twitter icon"/>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            <p>&#169;2022 | Anna M. Berrett | Orem, UT</p>
+            <a id="assignment-link" href="https://annmi-diva.github.io/">Assignment Portal</a>
+            <p id="date"></p> 
+
+        </footer>
+    
+        <script src="../scoots/js/script.js"></script>
+        <script src="../scoots/js/rentals.js"></script>
+ 
+        
+
+    </body>
+    
+</html>  
